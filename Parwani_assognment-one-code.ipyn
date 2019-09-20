@@ -1,0 +1,3296 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-1-22fbf440c575>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-1-22fbf440c575>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    INFO 5717 Assignment 1 codes\u001b[0m\n\u001b[0m            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "INFO 5717 Assignment 1 codes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Question1 the program for question 1 is below"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "type(\"Hello, World\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "type(17)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(3.2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(\"17\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(\"3.2\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type('This is a string')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(\"ANd so is this.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(\"\"\"and this.\"\"\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type('''and even this...''')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\"oh no\", she exclaimed, \"Ben's bike is broken!\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('''\"oh no\", she exclaimed, \"Ben's bike is broken!\"''')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "This message will\n",
+      "...span several\n",
+      "...lines\n"
+     ]
+    }
+   ],
+   "source": [
+    "message = \"\"\"This message will\n",
+    "...span several\n",
+    "...lines\"\"\"\n",
+    "print(message)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is a string.'"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'this is a string.'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'And so is this.'"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"\"\"And so is this.\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "42000"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "42000"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(42, 0)"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "42,000"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "message = \"what's up, Doc?\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "n = 17\n",
+    "pi = 3.14159"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\"what's up, Doc?\""
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "message"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "17"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.14159"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pi"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Thursady'"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "day = \"Thursady\"\n",
+    "day"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Friday'"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "day = \"Friday\"\n",
+    "day"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "21"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "day = 21\n",
+    "day"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1 + 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(\"hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "17"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "17"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "y = 3.14\n",
+    "x = len(\"hello\")\n",
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3.14"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2**3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "minutes = 645\n",
+    "hours = minutes / 60"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10.75"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "hours"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "minutes = 645\n",
+    "hours = minutes//60\n",
+    "hours"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(3.14)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "3"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(3.9999)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-3"
+      ]
+     },
+     "execution_count": 35,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(-3.999)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(minutes/60)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2345"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(\"2345\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "17"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(17)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "17.0"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float(17)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "123.45"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float(\"123.45\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'17'"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str(17)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'123.45'"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "str(123.45)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "512"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2**3**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "64"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(2**3)**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "banana nut bread\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruit = \"banana\"\n",
+    "baked_good = \" nut bread\"\n",
+    "print(fruit + baked_good)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Please enter your name: Neelema\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = input(\"Please enter your name: \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "what is your radius? 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "response = input(\"what is your radius? \")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "what is your radiurs? 1\n",
+      "the area is  3.14159\n"
+     ]
+    }
+   ],
+   "source": [
+    "response = input(\"what is your radiurs? \")\n",
+    "r = float(response)\n",
+    "area = 3.14159 * r**2\n",
+    "print(\"the area is \", area)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your radius? 1\n",
+      "The area is  3.14159\n"
+     ]
+    }
+   ],
+   "source": [
+    " r = float( input(\"What is your radius? \") )\n",
+    "print(\"The area is \", 3.14159 * r**2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "What is your radius?1\n",
+      "The area is  3.14159\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"The area is \", 3.14159*float(input(\"What is your radius?\"))**2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "q = 7 // 3\n",
+    "print(q)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "r = 7 % 3\n",
+    "print(r)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "How many seconds, in total?11\n",
+      "Hrs= 0   mins= 0 secs= 11\n"
+     ]
+    }
+   ],
+   "source": [
+    "total_secs = int(input(\"How many seconds, in total?\"))\n",
+    "hours = total_secs // 3600\n",
+    "secs_still_remaining = total_secs % 3600\n",
+    "minutes =  secs_still_remaining // 60\n",
+    "secs_finally_remaining = secs_still_remaining  % 60\n",
+    "print(\"Hrs=\", hours, \"  mins=\", minutes,\n",
+    "                         \"secs=\", secs_finally_remaining)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "our_string = \"Hello, World!\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'HELLO, WORLD!'"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "all_caps = our_string.upper()\n",
+    "all_caps"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruit = \"banana\"\n",
+    "letter = fruit [1]\n",
+    "print(letter)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b\n"
+     ]
+    }
+   ],
+   "source": [
+    "letter = fruit[0]\n",
+    "print(letter)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[(0, 'b'), (1, 'a'), (2, 'n'), (3, 'a'), (4, 'n'), (5, 'a')]"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fruit = \"banana\"\n",
+    "list(enumerate(fruit))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "11"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]\n",
+    "prime_numbers[4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Angelina'"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "friends = [\"Joe\", \"Zoe\", \"Brad\", \"Angelina\", \"Zuki\", \"Thandi\", \"Paris\"]\n",
+    "friends[3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word = \"banana\"\n",
+    "len(word)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "size = len(word)\n",
+    "last = word[size-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "B\n",
+      "a\n",
+      "n\n",
+      "a\n",
+      "n\n",
+      "a\n"
+     ]
+    }
+   ],
+   "source": [
+    " word=\"Banana\"\n",
+    "for letter in word:\n",
+    "    print(letter)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Jack\n",
+      "Kack\n",
+      "Lack\n",
+      "Mack\n",
+      "Nack\n",
+      "Oack\n",
+      "Pack\n",
+      "Qack\n"
+     ]
+    }
+   ],
+   "source": [
+    "prefixes = \"JKLMNOPQ\"\n",
+    "suffix = \"ack\"\n",
+    "for p in prefixes: print(p + suffix)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b\n",
+      "a\n",
+      "n\n",
+      "a\n",
+      "n\n",
+      "a\n"
+     ]
+    }
+   ],
+   "source": [
+    "ix = 0\n",
+    "while ix < len(fruit):\n",
+    "    letter = fruit[ix]\n",
+    "    print(letter)\n",
+    "    ix += 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Pirates\n"
+     ]
+    }
+   ],
+   "source": [
+    "phrase = \"Pirates of the Caribbean\"\n",
+    "print(phrase[0:7])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(phrase[11:14])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "e Caribbean\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(phrase[13:24])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Brad', 'Angelina']\n"
+     ]
+    }
+   ],
+   "source": [
+    "friends = [\"Joe\", \"Zoe\", \"Brad\", \"Angelina\", \"Zuki\", \"Thandi\", \"Paris\"]\n",
+    "print(friends[2:4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ban'"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word = \"banana\"\n",
+    "word[:3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ana'"
+      ]
+     },
+     "execution_count": 71,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word[3:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ana'"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word[3:999]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Yes, we have no bananas!\n"
+     ]
+    }
+   ],
+   "source": [
+    "if word == \"banana\":\n",
+    "    print(\"Yes, we have no bananas!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Yes, we have no bananas!\n"
+     ]
+    }
+   ],
+   "source": [
+    "if word < \"banana\":\n",
+    "    print(\"Your word, \" + word + \", comes before banana.\")\n",
+    "elif word > \"banana\":\n",
+    "    print(\"Your word, \" + word + \", comes after banana.\")\n",
+    "else:\n",
+    "    print(\"Yes, we have no bananas!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Jello, world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "greeting = \"Hello, world!\"\n",
+    "new_greeting = \"J\" + greeting[1:]\n",
+    "print(new_greeting)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"p\" in \"apple\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"i\" in \"apple\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"ap\" in \"apple\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"pa\" in \"apple\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"a\" in \"a\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 81,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"apple\" in \"apple\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"\" in \"a\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"\" in \"apple\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 84,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"x\" not in \"apple\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def remove_vowels(phrase): \n",
+    "    vowels = \"aeiou\" \n",
+    "    string_sans_vowels = \"\" \n",
+    "    for letter in phrase:\n",
+    "        if letter.lower() not in vowels: \n",
+    "            string_sans_vowels += letter\n",
+    "            return string_sans_vowels"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def my_find(haystack, needle): \n",
+    "    \"\"\"\n",
+    "      Find and return the index of needle in haystack.\n",
+    "      Return -1 if needle does not occur in haystack.\n",
+    "      \"\"\"\n",
+    "    for index, letter in enumerate(haystack): \n",
+    "        if letter == needle:\n",
+    "            return index \n",
+    "        return -1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "-1\n"
+     ]
+    }
+   ],
+   "source": [
+    " haystack = \"Bananarama!\"\n",
+    "print(haystack.find('a'))\n",
+    "print(my_find(haystack,'a'))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "def count_a(text): \n",
+    "    count = 0\n",
+    "    for letter in text: \n",
+    "        if letter == \"a\":\n",
+    "            count += 1 \n",
+    "            return(count) \n",
+    "        \n",
+    "print(count_a(\"banana\") == 3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "def find2(haystack, needle, start):\n",
+    "    for index,letter in enumerate(haystack[start:]):\n",
+    "        if letter == needle: \n",
+    "            return index + start\n",
+    "    return -1\n",
+    "print(find2(\"banana\", \"a\", 2) == 3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def find(haystack, needle, start=0):\n",
+    "    for index,letter in enumerate(haystack[start:]):\n",
+    "        if letter == needle: \n",
+    "            return index + start\n",
+    "        return -1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def find(haystack, needle, start=0, end=-1):\n",
+    "    for index,letter in enumerate(haystack[start:end]):\n",
+    "        if letter == needle: \n",
+    "            return index + start\n",
+    "    return -1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\"banana\".find(\"nan\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Well', 'I', 'never', 'did', 'said', 'Alice']"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "phrase = \"Well I never did said Alice\"\n",
+    "words = phrase.split()\n",
+    "words"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "punctuation = \"!\\\"#$%&'()*+,-./:;<=>?@[\\\\]^_`{|}~\"\n",
+    "def remove_punctuation(phrase): \n",
+    "    phrase_sans_punct = \"\"\n",
+    "    for letter in phrase:\n",
+    "        if letter not in punctuation: \n",
+    "            phrase_sans_punct += letter\n",
+    "    return phrase_sans_punct"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import string\n",
+    "def remove_punctuation(phrase): \n",
+    "    phrase_sans_punct = \"\"\n",
+    "    for letter in phrase:\n",
+    "        if letter not in string.punctuation: \n",
+    "            phrase_sans_punct += letter\n",
+    "    return phrase_sans_punct"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Pythons', 'are', 'constrictors', 'which', 'means', 'that', 'they', 'will', 'squeeze', 'the', 'life', 'out', 'of', 'their', 'prey', 'They', 'coil', 'themselves', 'around', 'their', 'prey', 'and', 'with', 'each', 'breath', 'the', 'creature', 'takes', 'the', 'snake', 'will', 'squeeze', 'a', 'little', 'tighter', 'until', 'they', 'stop', 'breathing', 'completely', 'Once', 'the', 'heart', 'stops', 'the', 'prey', 'is', 'swallowed', 'whole', 'The', 'entire', 'animal', 'is', 'digested', 'in', 'the', 'snakes', 'stomach', 'except', 'for', 'fur', 'or', 'feathers', 'What', 'do', 'you', 'think', 'happens', 'to', 'the', 'fur', 'feathers', 'beaks', 'and', 'eggshells', 'The', 'extra', 'stuff', 'gets', 'passed', 'out', 'as', 'you', 'guessed', 'it', 'snake', 'POOP']\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_story = \"\"\"\n",
+    "Pythons are constrictors, which means that they will 'squeeze' the life\n",
+    "out of their prey. They coil themselves around their prey and with\n",
+    "each breath the creature takes the snake will squeeze a little tighter\n",
+    "until they stop breathing completely. Once the heart stops the prey\n",
+    "is swallowed whole. The entire animal is digested in the snake's\n",
+    "stomach except for fur or feathers. What do you think happens to the fur,\n",
+    "feathers, beaks, and eggshells? The 'extra stuff' gets passed out as ---\n",
+    "you guessed it --- snake POOP! \"\"\"\n",
+    "\n",
+    "words = remove_punctuation(my_story).split()\n",
+    "print(words)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "His name is Arthur!\n"
+     ]
+    }
+   ],
+   "source": [
+    "phrase = \"His name is {0}!\".format(\"Arthur\") \n",
+    "print(phrase)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I am Alice and I am 10 years old.\n",
+      "I am 10 and I am Alice years old.\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Alice\"\n",
+    "age = 10\n",
+    "phrase = \"I am {1} and I am {0} years old.\".format(age, name) \n",
+    "print(phrase)\n",
+    "phrase = \"I am {0} and I am {1} years old.\".format(age, name) \n",
+    "print(phrase)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2**10 = 1024 and 4 * 5 = 20.000000\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=4\n",
+    "y=5\n",
+    "phrase = \"2**10 = {0} and {1} * {2} = {3:f}\".format(2**10, x, y, x * y) \n",
+    "print(phrase)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Pi to three decimal places is 3.142\n",
+      "123456789 123456789 123456789 123456789 123456789 123456789\n",
+      "|||Paris          |||    Whitney    |||         Hilton|||Born in 1981|||\n",
+      "The decimal value 123456 converts to hex value 1e240\n"
+     ]
+    }
+   ],
+   "source": [
+    "name1 = \"Paris\"\n",
+    "name2 = \"Whitney\"\n",
+    "name3 = \"Hilton\"\n",
+    "\n",
+    "print(\"Pi to three decimal places is {0:.3f}\".format(3.1415926)) \n",
+    "print(\"123456789 123456789 123456789 123456789 123456789 123456789\") \n",
+    "print(\"|||{0:<15}|||{1:^15}|||{2:>15}|||Born in {3}|||\"\n",
+    "      .format(name1,name2,name3,1981))\n",
+    "print(\"The decimal value {0} converts to hex value {0:x}\"\n",
+    "        .format(123456))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " \n",
+      "Dear Paris Hilton.\n",
+      "Paris, I have an interesting money-making proposition for you! \n",
+      "If you deposit $10 million into my bank account, I can \n",
+      "double your money ...\n",
+      "\n",
+      " \n",
+      "Dear Bill Gates.\n",
+      "Bill, I have an interesting money-making proposition for you! \n",
+      "If you deposit $10 million into my bank account, I can \n",
+      "double your money ...\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "letter = \"\"\" \n",
+    "Dear {0} {2}.\n",
+    "{0}, I have an interesting money-making proposition for you! \n",
+    "If you deposit $10 million into my bank account, I can \n",
+    "double your money ...\n",
+    "\"\"\"\n",
+    "\n",
+    "print(letter.format(\"Paris\", \"Whitney\", \"Hilton\"))\n",
+    "print(letter.format(\"Bill\", \"Henry\", \"Gates\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-65-baa98706bdac>, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-65-baa98706bdac>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    Traceback (most recent call last):\u001b[0m\n\u001b[0m                         ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "\"hello {3}\".format(\"Dave\")\n",
+    "Traceback (most recent call last):\n",
+    "    File \"<interactive input>\", line 1, in <module>\n",
+    "IndexError: tuple index out of range"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "i\ti**2\ti**3\ti**5\ti**10\ti**20\n",
+      "1 \t 1 \t 1 \t 1 \t 1 \t 1\n",
+      "2 \t 4 \t 8 \t 32 \t 1024 \t 1048576\n",
+      "3 \t 9 \t 27 \t 243 \t 59049 \t 3486784401\n",
+      "4 \t 16 \t 64 \t 1024 \t 1048576 \t 1099511627776\n",
+      "5 \t 25 \t 125 \t 3125 \t 9765625 \t 95367431640625\n",
+      "6 \t 36 \t 216 \t 7776 \t 60466176 \t 3656158440062976\n",
+      "7 \t 49 \t 343 \t 16807 \t 282475249 \t 79792266297612001\n",
+      "8 \t 64 \t 512 \t 32768 \t 1073741824 \t 1152921504606846976\n",
+      "9 \t 81 \t 729 \t 59049 \t 3486784401 \t 12157665459056928801\n",
+      "10 \t 100 \t 1000 \t 100000 \t 10000000000 \t 100000000000000000000\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"i\\ti**2\\ti**3\\ti**5\\ti**10\\ti**20\") \n",
+    "for i in range(1, 11):\n",
+    "    print(i, \"\\t\", i**2, \"\\t\", i**3, \"\\t\", i**5, \"\\t\",\n",
+    "          i**10, \"\\t\", i**20)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "   i  i**2  i**3    i**5        i**10                   i**20\n",
+      "   1     1     1       1            1                       1\n",
+      "   2     4     8      32         1024                 1048576\n",
+      "   3     9    27     243        59049              3486784401\n",
+      "   4    16    64    1024      1048576           1099511627776\n",
+      "   5    25   125    3125      9765625          95367431640625\n",
+      "   6    36   216    7776     60466176        3656158440062976\n",
+      "   7    49   343   16807    282475249       79792266297612001\n",
+      "   8    64   512   32768   1073741824     1152921504606846976\n",
+      "   9    81   729   59049   3486784401    12157665459056928801\n",
+      "  10   100  1000  100000  10000000000   100000000000000000000\n"
+     ]
+    }
+   ],
+   "source": [
+    "layout = \"{0:>4}{1:>6}{2:>6}{3:>8}{4:>13}{5:>24}\"\n",
+    "\n",
+    "print(layout.format(\"i\", \"i**2\", \"i**3\", \"i**5\", \"i**10\", \"i**20\")) \n",
+    "for i in range(1, 11):\n",
+    "    print(layout.format(i, i**2, i**3, i**5, i**10, i**20))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3, 8, 2, 3, 8]"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = [2, 3, 8]\n",
+    "2 * a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "values = [2, 3, 8] \n",
+    "result = []\n",
+    "for x in values:\n",
+    "    result.append(2.1 * x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 4.2,  6.3, 16.8])"
+      ]
+     },
+     "execution_count": 75,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "a = np.array([2, 3, 8])\n",
+    "2.1 * a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 4,  9, 64])"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a**2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "77"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = np.array([2, 3, 8])\n",
+    "np.dot(a,a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(3,)"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "a = np.array([2, 3, 8])\n",
+    "a.shape"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(2, 3)"
+      ]
+     },
+     "execution_count": 79,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b = np.array([ [2, 3, 8],\n",
+    "[4, 5, 6],\n",
+    "])\n",
+    "b.shape"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = np.array([2, 3, 8])\n",
+    "a[2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([3, 8])"
+      ]
+     },
+     "execution_count": 81,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[1:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([4, 5, 6])"
+      ]
+     },
+     "execution_count": 82,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b = np.array([ [2, 3, 8],\n",
+    "[4, 5, 6],\n",
+    "])\n",
+    "b[1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b[1][2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([3, 5])"
+      ]
+     },
+     "execution_count": 84,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b[:, 1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ True, False,  True, False, False])"
+      ]
+     },
+     "execution_count": 85,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = np.array([230, 10, 284, 39, 76])\n",
+    "cutoff = 200\n",
+    "a > cutoff"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([ 0, 10,  0, 39, 76])"
+      ]
+     },
+     "execution_count": 87,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = np.array([230, 10, 284, 39, 76]) \n",
+    "cutoff = 200\n",
+    "a[a > cutoff] = 0\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = np.array([230, 10, 284, 39, 76]) \n",
+    "cutoff = 200\n",
+    "new_a = []\n",
+    "for x in a:\n",
+    "    if x > cutoff: \n",
+    "        new_a.append(0)\n",
+    "    else:\n",
+    "        new_a.append(x)\n",
+    "        a = np.array(new_a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([[  0, 100],\n",
+       "       [ 20, 300],\n",
+       "       [ 40, 500]])"
+      ]
+     },
+     "execution_count": 95,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = np.array([ [0, 1],\n",
+    "    [2, 3],\n",
+    "    [4, 5],\n",
+    "    ])\n",
+    "b = np.array([10, 100]) \n",
+    "a * b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([[  0,  10,  20],\n",
+       "       [300, 400, 500]])"
+      ]
+     },
+     "execution_count": 98,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c = np.array([ [0, 1, 2],\n",
+    "[3, 4, 5],\n",
+    "])\n",
+    "b = np.array([10, 100]) \n",
+    "c * b[:, None]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([144], dtype=uint8)"
+      ]
+     },
+     "execution_count": 99,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "a = np.array([200], dtype='uint8') \n",
+    "a + a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([400], dtype=uint16)"
+      ]
+     },
+     "execution_count": 100,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "a = np.array([200], dtype='uint16') \n",
+    "a + a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([200], dtype=uint64)"
+      ]
+     },
+     "execution_count": 101,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    " import numpy as np\n",
+    "a = np.array([200], dtype='uint8') \n",
+    "a.astype('uint64')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "with open(\"test.txt\", \"w\") as myfile:\n",
+    "    myfile.write(\"My first file written from Python\\n\") \n",
+    "    myfile.write(\"---------------------------------\\n\") \n",
+    "    myfile.write(\"Hello, world!\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My first file written from Python\n",
+      "---------------------------------\n",
+      "Hello, world!\n"
+     ]
+    }
+   ],
+   "source": [
+    "with open(\"test.txt\", \"r\") as my_new_handle: \n",
+    "    for the_line in my_new_handle:\n",
+    "        # Do something with the line we just read. \n",
+    "        # Here we just print it.\n",
+    "        print(the_line, end=\"\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "FileNotFoundError",
+     "evalue": "[Errno 2] No such file or directory: 'wharrah.txt'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-104-90876b2f847b>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mmynewhandle\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"wharrah.txt\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\"r\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: 'wharrah.txt'"
+     ]
+    }
+   ],
+   "source": [
+    "mynewhandle = open(\"wharrah.txt\", \"r\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    " with open(\"/Users/neelemaparwani/Desktop/friends.txt\", \"r\") as input_file: \n",
+    "        all_lines = input_file.readlines()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 118,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "all_lines.sort()\n",
+    "with open(\"/Users/neelemaparwani/Desktop/friends.txt\", \"w\") as output_file: \n",
+    "    for line in all_lines:\n",
+    "        output_file.write(line)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "There are 1 words in the file.\n"
+     ]
+    }
+   ],
+   "source": [
+    "with open(\"/Users/neelemaparwani/Desktop/somefile.txt\") as f: \n",
+    "    content = f.read()\n",
+    "words = content.split()\n",
+    "print(\"There are {0} words in the file.\".format(len(words)))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def filter(oldfile, newfile):\n",
+    "    with open(oldfile, \"r\") as infile, open(newfile, \"w\") as outfile:\n",
+    "        for line in infile:\n",
+    "            # Put any processing logic here \n",
+    "            if not line.startswith('#'):\n",
+    "                outfile.write(line)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 128,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Welcome\\n', 'to \\n', 'info 5717 course\\n']\n"
+     ]
+    }
+   ],
+   "source": [
+    "wordsfile = open(\"/Users/neelemaparwani/Desktop/wordsfile.txt\", \"r\")\n",
+    "wordlist = wordsfile.readlines()\n",
+    "print(wordlist[:6])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "('rfc793.txt', <http.client.HTTPMessage at 0x106d90940>)"
+      ]
+     },
+     "execution_count": 130,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import urllib.request\n",
+    "url = \"https://www.w3schools.com/python/\"\n",
+    "destination_filename = \"rfc793.txt\"\n",
+    "urllib.request.urlretrieve(url, destination_filename)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 134,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "b'\\r\\n<!DOCTYPE html>\\r\\n<html lang=\"en-US\">\\r\\n<head><title>Python Tutorial</title>\\r\\n<meta charset=\"utf-8\">\\r\\n<meta name=\"viewport\" cont'\n",
+      "b'ent=\"width=device-width, initial-scale=1\">\\r\\n<meta name=\"Keywords\" content=\"HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,'\n",
+      "b'Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source'\n",
+      "b' code,colors,demos,tips\">\\r\\n<meta name=\"Description\" content=\"Well organized and easy to understand Web building tutorials with l'\n",
+      "b'ots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.\">\\r\\n<link rel=\"icon\" href=\"/favic'\n",
+      "b'on.ico\" type=\"image/x-icon\">\\r\\n<link rel=\"stylesheet\" href=\"/w3css/4/w3.css\">\\r\\n<link href=\\'https://fonts.googleapis.com/css?famil'\n",
+      "b\"y=Source Code Pro' rel='stylesheet'>\\r\\n<style>\\r\\na:hover,a:active{color:#4CAF50}\\r\\ntable.w3-table-all{margin:20px 0}\\r\\n/*OPPSETT AV \"\n",
+      "b'TOP, TOPNAV, SIDENAV, MAIN, RIGHT OG FOOTER:*/\\r\\n.top {\\r\\nposition:relative;\\r\\nbackground-color:#ffffff;\\r\\nheight:68px;\\r\\npadding-top'\n",
+      "b':20px;\\r\\nline-height:50px;\\r\\noverflow:hidden;\\r\\nz-index:2;\\r\\n}\\r\\n.w3schools-logo {\\r\\nfont-family:fontawesome;\\r\\ntext-decoration:none;\\r\\n'\n",
+      "b'line-height:1;\\r\\n-webkit-font-smoothing:antialiased;\\r\\n-moz-osx-font-smoothing:grayscale;\\r\\nfont-size:37px;\\r\\nletter-spacing:3px;\\r\\nc'\n",
+      "b'olor:#555555;\\r\\ndisplay:block;\\r\\nposition:absolute;\\r\\ntop:17px;\\r\\n}\\r\\n.w3schools-logo .dotcom {color:#4CAF50}\\r\\n.topnav {\\r\\nposition:re'\n",
+      "b'lative;\\r\\nz-index:2;\\r\\nfont-size:17px;\\r\\nbackground-color:#5f5f5f;\\r\\ncolor:#f1f1f1;\\r\\nwidth:100%;\\r\\npadding:0;\\r\\nletter-spacing:1px;\\r\\nf'\n",
+      "b'ont-family:\"Segoe UI\",Arial,sans-serif;\\r\\n}\\r\\n.topnav a{\\r\\npadding:10px 15px 9px 15px !important;\\r\\n}\\r\\n.topnav .w3-bar a:hover,.topn'\n",
+      "b'av .w3-bar a:focus{\\r\\nbackground-color:#000000 !important;\\r\\ncolor:#ffffff !important;\\r\\n}\\r\\n.topnav .w3-bar a.active {\\r\\nbackground-'\n",
+      "b'color:#4CAF50;\\r\\ncolor:#ffffff;\\r\\n}\\r\\na.topnav-icons {\\r\\nwidth:52px !important;\\r\\nfont-size:20px !important;\\r\\npadding-top:11px !impor'\n",
+      "b'tant;\\r\\npadding-bottom:13px !important;\\r\\n}\\r\\na.topnav-icons.fa-home {font-size:22px !important}\\r\\na.topnav-icons.fa-menu {font-size'\n",
+      "b':22px !important}\\r\\na.topnav-localicons {\\r\\nfont-size:20px !important;\\r\\npadding-top:6px !important;\\r\\npadding-bottom:12px !importan'\n",
+      "b't;\\r\\n}\\r\\ni.fa-caret-down,i.fa-caret-up{width:10px}\\r\\n#sidenav h2 {\\r\\nfont-size:21px;\\r\\npadding-left:16px;\\r\\nmargin:-4px 0 4px 0;\\r\\nwidt'\n",
+      "b'h:204px;\\r\\n}\\r\\n#sidenav a {font-family:\"Segoe UI\",Arial,sans-serif;text-decoration:none;display:block;padding:2px 1px 1px 16px}\\r\\n#'\n",
+      "b'sidenav a:hover,#sidenav a:focus {color:#000000;background-color:#cccccc;}\\r\\n#sidenav a.active {background-color:#4CAF50;color:#f'\n",
+      "b'fffff}\\r\\n#sidenav a.activesub:link,#sidenav a.activesub:visited {background-color:#ddd;color:#000;}\\r\\n#sidenav a.activesub:hover,#'\n",
+      "b'sidenav a.activesub:active {background-color:#ccc;color:#000;}\\r\\n#leftmenuinner {\\r\\nposition:fixed;\\r\\ntop:0;\\r\\npadding-top:112px;\\r\\np'\n",
+      "b'adding-bottom:0;    \\r\\nheight:100%;\\r\\nwidth:220px;\\r\\nbackground-color:transparent;\\r\\n}\\r\\n#leftmenuinnerinner {\\r\\nheight:100%;\\r\\nwidth:1'\n",
+      "b'00%;\\r\\noverflow-y:scroll;\\r\\noverflow-x:hidden;\\r\\npadding-top:20px;\\r\\n}\\r\\n#main {padding:16px}\\r\\n#mainLeaderboard {height:90px}\\r\\n#right'\n",
+      "b' {text-align:center;padding:16px 16px 0 0}\\r\\n#right a {text-decoration:none}\\r\\n#right a:hover {text-decoration:underline}\\r\\n#skyscr'\n",
+      "b'aper {min-height:600px}\\r\\n.sidesection {margin-bottom:32px;}\\r\\n#sidesection_exercise a{display:block;padding:4px 10px;}\\r\\n#sidesect'\n",
+      "b'ion_exercise a:hover,#sidesection_exercise a:active{background-color:#ccc;text-decoration:none;color:#000000;}\\r\\n.bottomad {paddi'\n",
+      "b'ng:0 16px 16px 0;float:left;width:auto;}\\r\\n.footer a {text-decoration:none;}\\r\\n.footer a:hover{text-decoration:underline;}\\r\\n#nav_t'\n",
+      "b'utorials,#nav_references,#nav_exercises{-webkit-overflow-scrolling:touch;overflow:auto;}\\r\\n#nav_tutorials::-webkit-scrollbar,#nav'\n",
+      "b'_references::-webkit-scrollbar,#nav_exercises::-webkit-scrollbar {width: 12px;}\\r\\n#nav_tutorials::-webkit-scrollbar-track,#nav_re'\n",
+      "b'ferences::-webkit-scrollbar-track,#nav_exercises::-webkit-scrollbar-track {background:#555555;}\\r\\n#nav_tutorials::-webkit-scrollb'\n",
+      "b'ar-thumb,#nav_references::-webkit-scrollbar-thumb,#nav_exercises::-webkit-scrollbar-thumb {background: #999999;}\\r\\n#nav_tutorials'\n",
+      "b',#nav_references,#nav_exercises {\\r\\ndisplay:none;\\r\\nletter-spacing:0;\\r\\nmargin-top:44px;\\r\\n}\\r\\n#nav_tutorials a,#nav_references a,#na'\n",
+      "b'v_exercises a{\\r\\npadding:2px 0 2px 6px!important;\\r\\n}\\r\\n#nav_tutorials a:focus,#nav_references a:focus,#nav_exercises a:focus{\\r\\ncol'\n",
+      "b'or: #000;\\r\\nbackground-color: #ccc;\\r\\n}\\r\\n#nav_tutorials h3,#nav_references h3,#nav_exercises h3{\\r\\npadding-left:6px;\\r\\n}\\r\\n.ref_overv'\n",
+      "b'iew{display:none}\\r\\n.tut_overview{\\r\\n display :none;\\r\\n margin-left:10px;\\r\\n background-color :#ddd;\\r\\n line-height:1.8em;\\r\\n}\\r\\n#siden'\n",
+      "b'av a.activesub:link,#sidenav a.activesub:visited {background-color:#ddd;color:#000;}\\r\\n#sidenav a.activesub:hover,#sidenav a.acti'\n",
+      "b'vesub:active {background-color:#ccc;color:#000;}\\r\\n#sidenav a.active_overview:link,#sidenav a.active_overview:visited {background'\n",
+      "b'-color:#ccc;color:#000;}\\r\\n.w3-example{background-color:#f1f1f1;padding:0.01em 16px;margin:20px 0;box-shadow:0 2px 4px 0 rgba(0,0'\n",
+      "b',0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important}\\r\\n.nextprev a {font-size:17px;border:1px solid #cccccc;}\\r\\n.nextprev a:link,.nex'\n",
+      "b'tprev a:visited {background-color:#ffffff;color:#000000;}\\r\\n.w3-example a:focus,.nextprev a:focus{box-shadow:0 8px 16px 0 rgba(0,'\n",
+      "b'0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}\\r\\n.nextprev a.w3-right,.nextprev a.w3-left {background-color:#4CAF50;color:#ffffff;bord'\n",
+      "b'er-color:#4CAF50}\\r\\n#w3-exerciseform {background-color:#555555;padding:16px;color:#ffffff;}\\r\\n#w3-exerciseform .exercisewindow {ba'\n",
+      "b'ckground-color:#ffffff;padding:16px;color:#000000;}\\r\\n#w3-exerciseform .exerciseprecontainer {background-color:#f1f1f1;padding:16'\n",
+      "b'px;font-size:120%;font-family:Consolas,\"Courier New\", Courier, monospace;}\\r\\n#w3-exerciseform .exerciseprecontainer pre {display:'\n",
+      "b' block;}\\r\\n#w3-exerciseform .exerciseprecontainer input {padding:1px;border: 1px solid transparent;height:1.3em;}\\r\\n.w3-theme {col'\n",
+      "b'or:#fff !important;background-color:#73AD21 !important;background-color:#4CAF50 !important}\\r\\n.w3-theme-border {border-color:#4CA'\n",
+      "b'F50 !important}\\r\\n.sharethis a:hover {color:inherit;}\\r\\n.fa-facebook-square,.fa-twitter-square,.fa-google-plus-square {padding:0 8'\n",
+      "b'px;}\\r\\n.fa-facebook-square:hover, .fa-thumbs-o-up:hover {color:#3B5998;}\\r\\n.fa-twitter-square:hover {color:#55acee;}\\r\\n.fa-google-p'\n",
+      "b'lus-square:hover {color:#dd4b39;}\\r\\n#google_translate_element img {margin-bottom:-1px;}\\r\\n#googleSearch {color:#000000;}\\r\\n#googleS'\n",
+      "b'earch a {padding:0 !important;}\\r\\n.searchdiv {max-width:400px;margin:auto;text-align:left;font-size:16px}\\r\\ndiv.cse .gsc-control-c'\n",
+      "b'se, div.gsc-control-cse {background-color:transparent;border:none;padding:6px;margin:0px}\\r\\ntd.gsc-search-button input.gsc-search'\n",
+      "b'-button {background-color:#4CAF50;border-color:#4CAF50}\\r\\ntd.gsc-search-button input.gsc-search-button:hover {background-color:#4'\n",
+      "b'6a049;}\\r\\ninput.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {\\r\\nbox-sizing:content-b'\n",
+      "b'ox; line-height:normal;}\\r\\n.gsc-tabsArea div {overflow:visible;}\\r\\n/*\"nullstille\" w3css:*/\\r\\n.w3-main{transition:margin-left 0s;}\\r\\n'\n",
+      "b'/*\"nullstilling\" slutt*/\\r\\n@media (min-width:1675px) {\\r\\n#main {width:79%}\\r\\n#right {width:21%}\\r\\n}\\r\\n@media (max-width:992px) {\\r\\n.to'\n",
+      "b'p {height:100px}\\r\\n.top img {display:block;margin:auto;}\\r\\n.top .w3schools-logo {position:relative;top:0;width:100%;text-align:cen'\n",
+      "b'ter;margin:auto}\\r\\n.toptext {width:100%;text-align:center}\\r\\n#sidenav {width:260px;\\r\\nbox-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px '\n",
+      "b'6px rgba(0,0,0,0.23);\\r\\n}\\r\\n#sidenav h2 {font-size:26px;width:100%;}\\r\\n#sidenav a {padding:3px 2px 3px 24px;font-size:17px}\\r\\n#leftm'\n",
+      "b'enuinner {  \\r\\noverflow:auto;\\r\\n-webkit-overflow-scrolling:touch;\\r\\nheight:100%;\\r\\nposition:relative;\\r\\nwidth:auto;\\r\\npadding-top:0;\\r\\n'\n",
+      "b'background-color:#f1f1f1;\\r\\n}\\r\\n#leftmenuinnerinner {overflow-y:scroll}\\r\\n.bottomad {float:none;text-align:center}\\r\\n#skyscraper {mi'\n",
+      "b'n-height:60px}\\r\\n}\\r\\n@media screen and (max-width:600px) {\\r\\n.w3-example, .w3-note, #w3-exerciseform {margin-left:-16px;margin-righ'\n",
+      "b\"t:-16px;}\\r\\n.top {height:68px}\\r\\n.toptext {display:none}\\r\\n}\\r\\n@font-face {\\r\\nfont-family:'fontawesome';\\r\\nsrc: url('../lib/fonts/font\"\n",
+      "b\"awesome.eot?14663396');\\r\\nsrc:url('../lib/fonts/fontawesome.eot?14663396#iefix') format('embedded-opentype'),\\r\\nurl('../lib/fonts/\"\n",
+      "b\"fontawesome.woff?14663396') format('woff'),\\r\\nurl('../lib/fonts/fontawesome.ttf?14663396') format('truetype'),\\r\\nurl('../lib/fonts\"\n",
+      "b\"/fontawesome.svg?14663396#fontawesome') format('svg');\\r\\nfont-weight:normal;\\r\\nfont-style:normal;\\r\\n}\\r\\n.fa {\\r\\ndisplay:inline-block;\"\n",
+      "b'\\r\\nfont:normal normal normal 14px/1 FontAwesome;\\r\\nfont-size:inherit;\\r\\ntext-rendering:auto;\\r\\n-webkit-font-smoothing:antialiased;\\r\\n'\n",
+      "b\"-moz-osx-font-smoothing:grayscale;\\r\\ntransform:translate(0, 0);\\r\\n}\\r\\n.fa-2x {\\r\\n font-size:2em;\\r\\n}\\r\\n.fa-home:before {content:'\\\\e800\"\n",
+      "b\"';}\\r\\n.fa-menu:before {content: '\\\\f0c9';}\\r\\n.fa-globe:before {content:'\\\\e801';}\\r\\n.fa-search:before {content:'\\\\e802'; }\\r\\n.fa-thumbs\"\n",
+      "b\"-o-up:before {content:'\\\\e803';}\\r\\n.fa-left-open:before {content:'\\\\e804';}\\r\\n.fa-right-open:before {content:'\\\\e805';}\\r\\n.fa-facebook\"\n",
+      "b\"-square:before {content:'\\\\e806';}\\r\\n.fa-google-plus-square:before {content:'\\\\e807';}\\r\\n.fa-twitter-square:before {content:'\\\\e808';\"\n",
+      "b\"}\\r\\n.fa-caret-down:before {content:'\\\\e809';}\\r\\n.fa-caret-up:before {content:'\\\\e80a';}\\r\\n.fa.fa-adjust:before { content: '\\\\e80b'; }\\r\"\n",
+      "b'\\nspan.marked, span.deprecated {\\r\\n color:#e80000;\\r\\n background-color:transparent;\\r\\n}\\r\\n.intro {font-size:16px}\\r\\n.w3-btn, .w3-btn:l'\n",
+      "b'ink, .w3-btn:visited {color:#FFFFFF;background-color:#4CAF50}\\r\\na.w3-btn[href*=\"exercise.asp\"],a.w3-btn[href*=\"exercise_js.asp\"] '\n",
+      "b'{margin:10px 5px 0 0}\\r\\na.btnplayit,a.btnplayit:link,a.btnplayit:visited {background-color:#FFAD33;padding:1px 10px 2px 10px}\\r\\na.'\n",
+      "b'btnplayit:hover,a.btnplayit:active {background-color:#ffffff;color:#FFAD33}\\r\\na.btnplayit:hover {box-shadow:0 4px 8px 0 rgba(0,0,'\n",
+      "b'0,0.2);}\\r\\na.btnsmall:link,a.btnsmall:visited,a.btnsmall:active,a.btnsmall:hover {\\r\\nfloat:right;padding:1px 10px 2px 10px;font:15'\n",
+      "b'px Verdana, sans-serif;}\\r\\na.btnsmall:hover {box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);}\\r\\na.btnsmall:active,a.btnsmall:hover {color:'\n",
+      "b'#4CAF50;background-color:#ffffff}\\r\\n.tagcolor{color:mediumblue}\\r\\n.tagnamecolor{color:brown}\\r\\n.attributecolor{color:red}\\r\\n.attribu'\n",
+      "b'tevaluecolor{color:mediumblue}\\r\\n.commentcolor{color:green}\\r\\n.cssselectorcolor{color:brown}\\r\\n.csspropertycolor{color:red}\\r\\n.csspr'\n",
+      "b'opertyvaluecolor{color:mediumblue}\\r\\n.cssdelimitercolor{color:black}\\r\\n.cssimportantcolor{color:red}  \\r\\n.jscolor{color:black}\\r\\n.js'\n",
+      "b'keywordcolor{color:mediumblue}\\r\\n.jsstringcolor{color:brown}\\r\\n.jsnumbercolor{color:red}\\r\\n.jspropertycolor{color:black}\\r\\n.javacolo'\n",
+      "b'r{color:black}\\r\\n.javakeywordcolor{color:mediumblue}\\r\\n.javastringcolor{color:brown}\\r\\n.javanumbercolor{color:red}\\r\\n.javapropertyco'\n",
+      "b'lor{color:black}\\r\\n.kotlincolor{color:black}\\r\\n.kotlinkeywordcolor{color:mediumblue}\\r\\n.kotlinstringcolor{color:brown}\\r\\n.kotlinnumb'\n",
+      "b'ercolor{color:red}\\r\\n.kotlinpropertycolor{color:black}\\r\\n.phptagcolor{color:red}\\r\\n.phpcolor{color:black}\\r\\n.phpkeywordcolor{color:m'\n",
+      "b'ediumblue}\\r\\n.phpglobalcolor{color:goldenrod}\\r\\n.phpstringcolor{color:brown}\\r\\n.phpnumbercolor{color:red}  \\r\\n.pythoncolor{color:bla'\n",
+      "b'ck}\\r\\n.pythonkeywordcolor{color:mediumblue}\\r\\n.pythonstringcolor{color:brown}\\r\\n.pythonnumbercolor{color:red}  \\r\\n.angularstatementc'\n",
+      "b'olor{color:red}\\r\\n.sqlcolor{color:black}\\r\\n.sqlkeywordcolor{color:mediumblue}\\r\\n.sqlstringcolor{color:brown}\\r\\n.sqlnumbercolor{color'\n",
+      "b':} \\r\\n.darktheme {background-color:rgb(40,44,52);color:white;}\\r\\n.darktheme .tagcolor{color:#88ccbb/*green2*/!important}\\r\\n.darkthe'\n",
+      "b'me .tagnamecolor{color:#ff9999/*red*/!important}\\r\\n.darktheme .attributecolor{color:#c5a5c5/*purple*/!important}\\r\\n.darktheme .att'\n",
+      "b'ributevaluecolor{color:#88c999/*green*/!important}\\r\\n.darktheme .commentcolor{color:color: #999;!important}\\r\\n.darktheme .cssselec'\n",
+      "b'torcolor{color:#ff9999/*red*/!important}\\r\\n.darktheme .csspropertycolor{color:#c5a5c5/*purple*/!important}\\r\\n.darktheme .cssproper'\n",
+      "b'tyvaluecolor{color:#88c999/*green*/!important}\\r\\n.darktheme .cssdelimitercolor{color:white!important}\\r\\n.darktheme .cssimportantco'\n",
+      "b'lor{color:color:#ff9999/*red*/!important}\\r\\n.darktheme .jscolor{color:white!important}\\r\\n.darktheme .jskeywordcolor{color:#c5a5c5/'\n",
+      "b'*purple*/!important}\\r\\n.darktheme .jsstringcolor{color:#88c999/*green*/!important}\\r\\n.darktheme .jsnumbercolor{color:#80b6ff/*blue'\n",
+      "b'*/!important}\\r\\n.darktheme .jspropertycolor{color:white!important}\\r\\n.darktheme .javacolor{color:white!important}\\r\\n.darktheme .jav'\n",
+      "b'akeywordcolor{color:#88c999/*green*/!important}\\r\\n.darktheme .javastringcolor{color:#88c999/*green*/!important}\\r\\n.darktheme .java'\n",
+      "b'numbercolor{color:#88c999/*green*/!important}\\r\\n.darktheme .javapropertycolor{color:white!important}\\r\\n.darktheme .kotlincolor{col'\n",
+      "b'or:white!important}\\r\\n.darktheme .kotlinkeywordcolor{color:#88c999/*green*/!important}\\r\\n.darktheme .kotlinstringcolor{color:#88c9'\n",
+      "b'99/*green*/!important}\\r\\n.darktheme .kotlinnumbercolor{color:#88c999/*green*/!important}\\r\\n.darktheme .kotlinpropertycolor{color:w'\n",
+      "b'hite!important}\\r\\n.darktheme .phptagcolor{color:#999!important}\\r\\n.darktheme .phpcolor{color:white!important}\\r\\n.darktheme .phpkeyw'\n",
+      "b'ordcolor{color:#ff9999/*red*/!important}\\r\\n.darktheme .phpglobalcolor{color:white!important}\\r\\n.darktheme .phpstringcolor{color:co'\n",
+      "b'lor:#88c999/*green*/!important}\\r\\n.darktheme .phpnumbercolor{color:#88c999/*green*/!important}\\r\\n.darktheme .pythoncolor{color:whi'\n",
+      "b'te!important}\\r\\n.darktheme .pythonkeywordcolor{color:#ff9999/*red*/!important}\\r\\n.darktheme .pythonstringcolor{color:#88c999/*gree'\n",
+      "b'n*/!important}\\r\\n.darktheme .pythonnumbercolor{color:#88c999/*green*/!important}\\r\\n.darktheme .angularstatementcolor{color:#ff9999'\n",
+      "b'/*red*/!important}\\r\\n.darktheme .sqlcolor{color:white!important}\\r\\n.darktheme .sqlkeywordcolor{color:#80b6ff/*blue*/!important}\\r\\n.'\n",
+      "b'darktheme .sqlstringcolor{color:#88c999/*green*/!important}\\r\\n.darktheme .sqlnumbercolor{color:}\\r\\n@media only screen and (max-dev'\n",
+      "b\"ice-width: 480px) {\\r\\n.w3-code, .w3-codespan,#w3-exerciseform .exerciseprecontainer {font-family: 'Source Code Pro',Menlo,Consola\"\n",
+      "b's,monospace;}\\r\\n.w3-code {font-size:14px;}\\r\\n.w3-codespan {font-size:15px;}\\r\\n#w3-exerciseform .exerciseprecontainer {font-size:15p'\n",
+      "b'x;}\\r\\n#w3-exerciseform .exerciseprecontainer input {padding:0;height:1.5em}\\r\\n}\\r\\n@media screen and (max-width:700px) {\\r\\n#mainLeade'\n",
+      "b'rboard {height:60px}\\r\\n#div-gpt-ad-1422003450156-0 {float:none;margin-left:auto;margin-right:auto}\\r\\n#div-gpt-ad-1422003450156-3 {'\n",
+      "b'float:none;margin-left:auto;margin-right:auto}\\r\\n}\\r\\n@media (max-width:1700px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(17){d'\n",
+      "b'isplay:none;}}\\r\\n@media (max-width:1600px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(13){display:none;}}\\r\\n@media (max-width:1'\n",
+      "b'510px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(12){display:none;}}\\r\\n@media (max-width:1450px) {#topnav .w3-bar:nth-of-type'\n",
+      "b'(1) a:nth-of-type(11){display:none;}}\\r\\n@media (max-width:1330px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(10){display:none;'\n",
+      "b'}}\\r\\n@media (max-width:1200px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(9){display:none;}}\\r\\n@media (max-width:1100px) {#topn'\n",
+      "b'av .w3-bar:nth-of-type(1) a:nth-of-type(8){display:none;}}\\r\\n@media (max-width:1000px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-t'\n",
+      "b'ype(7){display:none;}}\\r\\n@media (max-width:992px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(6){display:none;}}\\r\\n@media (max-w'\n",
+      "b'idth:930px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(18){display:none;}}\\r\\n@media (max-width:800px) {#topnav .w3-bar:nth-of-'\n",
+      "b'type(1) a:nth-of-type(19){display:none;}}\\r\\n@media (max-width:650px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(5){display:non'\n",
+      "b'e;} #topnav .w3-bar:nth-of-type(1) a:nth-of-type(16){display:none;}}\\r\\n@media (max-width:460px) {#topnav .w3-bar:nth-of-type(1) a'\n",
+      "b':nth-of-type(4){display:none;}}\\r\\n@media (max-width:400px) {#topnav .w3-bar:nth-of-type(1) a:nth-of-type(3){display:none;}}\\r\\n.w3-'\n",
+      "b'note{background-color:#ffffcc;border-left:6px solid #ffeb3b}\\r\\n.w3-warning{background-color:#ffdddd;border-left:6px solid #f44336'\n",
+      "b'}\\r\\n.w3-info{background-color:#ddffdd;border-left:6px solid #4CAF50}\\r\\nhr[id^=\"ez-insert-after-placeholder\"] {margin-top: 0;}\\r\\n.ph'\n",
+      "b'onebr {display:none;}\\r\\n@media screen and (max-width: 475px) {.phonebr {display:initial;}}\\r\\n</style>\\r\\n<script>\\r\\n(function(i,s,o,g'\n",
+      "b\",r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\\r\\n(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.create\"\n",
+      "b\"Element(o),\\r\\nm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\r\\n})(window,document,'script','https\"\n",
+      "b\"://www.google-analytics.com/analytics.js','ga');\\r\\nga('create', 'UA-3855518-1', 'auto');\\r\\nga('require', 'displayfeatures');\\r\\nga('\"\n",
+      "b'send\\', \\'pageview\\');\\r\\n</script>\\r\\n\\r\\n<script src=\"//snigelweb-com.videoplayerhub.com/videoloader.js\" async></script>\\r\\n\\r\\n<script typ'\n",
+      "b\"e='text/javascript'>\\r\\nvar k42 = false;\\r\\nvar googletag = googletag || {}; googletag.cmd = googletag.cmd || [];\\r\\n\\r\\nk42 = true;\\r\\n(a\"\n",
+      "b'dsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;\\r\\n\\r\\nvar snhb = snhb || {}; snhb.queue = snhb.queue || [];\\r\\nsnhb.options = {'\n",
+      "b'\\r\\n               logOutputEnabled : false,\\r\\n               autoStartAuction: false,\\r\\n               gdpr: {\\r\\n                   '\n",
+      "b'  mainGeo: \"us\",\\r\\n                     reconsiderationAppealIntervalSeconds: 0\\r\\n                     }\\r\\n               };\\r\\n\\r\\n</s'\n",
+      "b'cript>\\r\\n<script src=\"//static.h-bid.com/sncmp/sncmp_stub.min.js\" type=\"text/javascript\"></script>\\r\\n<script>\\r\\n\\t\\t\\twindow.__cmp(\\'se'\n",
+      "b'tLogo\\', \"//www.w3schools.com/images/w3schoolscom_gray.gif\", function(result){\\r\\n\\t       \\t\\tsnhb.console.log(\"Logo set\");\\r\\n\\t    \\t})'\n",
+      "b';\\r\\n\\t\\t\\twindow.__cmp(\\'setPrivacyPolicy\\', \"//www.w3schools.com/about/about_privacy.asp\", function(result){\\r\\n\\t       \\t\\tsnhb.console.'\n",
+      "b'log(\"Privacy policy URI set\");\\r\\n\\t    \\t});\\r\\n\\t\\t\\twindow.__cmp(\\'enableBanner\\', null, function(result) {\\r\\n\\t       \\t\\tsnhb.console.log('\n",
+      "b'\"Banner mode enabled\");\\r\\n\\t\\t\\t});\\r\\n\\t\\t\\t__cmp(\\'enablePopupDismissable\\', null, function(result) {});\\r\\n\\t\\t\\twindow.__cmp(\\'disableBannerP'\n",
+      "b'rivacyPolicyButton\\', null, function(result) {\\r\\n\\t       \\t\\tsnhb.console.log(\"Banner mode without privacy policy button enabled\");\\r'\n",
+      "b'\\n\\t\\t\\t});\\r\\n      window.__cmp(\\'setTranslationFiles\\', { path: \\'//www.w3schools.com/lib/\\', locales: [\"en\"] }, function(result) {});\\r'\n",
+      "b'\\n      __cmp(\\'setCSS\\', \\'//www.w3schools.com/lib/cmp.css\\', function(result){} );\\r\\n</script>\\r\\n<script async type=\"text/javascript\"'\n",
+      "b' src=\"//static.h-bid.com/w3schools.com/20190327/snhb-w3schools.com.min.js?20190327\"></script>\\r\\n<script>\\r\\n  snhb.queue.push(funct'\n",
+      "b'ion(){\\r\\n\\r\\n    snhb.startAuction([\"main_leaderboard\", \"wide_skyscraper\", \"bottom_medium_rectangle\", \"right_bottom_medium_rectangl'\n",
+      "b'e\"]);\\r\\n\\r\\n  });\\r\\n</script>\\r\\n<script type=\\'text/javascript\\'>\\r\\nvar stickyadstatus = \"\";\\r\\nfunction fix_stickyad() {\\r\\n  document.getE'\n",
+      "b'lementById(\"stickypos\").style.position = \"sticky\";\\r\\n  var elem = document.getElementById(\"stickyadcontainer\");\\r\\n  if (!elem) {re'\n",
+      "b'turn false;}\\r\\n  if (document.getElementById(\"skyscraper\")) {\\r\\n    var skyWidth = Number(w3_getStyleValue(document.getElementById'\n",
+      "b'(\"skyscraper\"), \"width\").replace(\"px\", \"\"));  \\r\\n    }\\r\\n  else {\\r\\n    var skyWidth = Number(w3_getStyleValue(document.getElementB'\n",
+      "b'yId(\"right\"), \"width\").replace(\"px\", \"\"));  \\r\\n  }\\r\\n  elem.style.width = skyWidth + \"px\";\\r\\n  if (window.innerWidth <= 992) {\\r\\n   '\n",
+      "b' elem.style.position = \"\";\\r\\n    elem.style.top = stickypos + \"px\";\\r\\n    return false;\\r\\n  }\\r\\n  var stickypos = document.getElemen'\n",
+      "b'tById(\"stickypos\").offsetTop;\\r\\n  var docTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTo'\n",
+      "b'p;\\r\\n  var adHeight = Number(w3_getStyleValue(elem, \"height\").replace(\"px\", \"\"));\\r\\n  if (stickyadstatus == \"\") {\\r\\n    if ((sticky'\n",
+      "b'pos - docTop) < 60) {\\r\\n      elem.style.position = \"fixed\";\\r\\n      elem.style.top = \"60px\";\\r\\n      stickyadstatus = \"sticky\";\\r\\n '\n",
+      "b'     document.getElementById(\"stickypos\").style.position = \"sticky\";\\r\\n\\r\\n    }\\r\\n  } else {\\r\\n    if ((docTop + 60) - stickypos < 0'\n",
+      "b') {  \\r\\n      elem.style.position = \"\";\\r\\n      elem.style.top = stickypos + \"px\";\\r\\n      stickyadstatus = \"\";\\r\\n      document.get'\n",
+      "b'ElementById(\"stickypos\").style.position = \"static\";\\r\\n    }\\r\\n  }\\r\\n  if (stickyadstatus == \"sticky\") {\\r\\n    if ((docTop + adHeight'\n",
+      "b' + 60) > document.getElementById(\"footer\").offsetTop) {\\r\\n      elem.style.position = \"absolute\";\\r\\n      elem.style.top = (docume'\n",
+      "b'nt.getElementById(\"footer\").offsetTop - adHeight) + \"px\";\\r\\n      document.getElementById(\"stickypos\").style.position = \"static\";'\n",
+      "b'\\r\\n    } else {\\r\\n        elem.style.position = \"fixed\";\\r\\n        elem.style.top = \"60px\";\\r\\n        stickyadstatus = \"sticky\";\\r\\n  '\n",
+      "b'      document.getElementById(\"stickypos\").style.position = \"sticky\";\\r\\n    }\\r\\n  }\\r\\n}\\r\\nfunction w3_getStyleValue(elmnt,style) {\\r\\n'\n",
+      "b'  if (window.getComputedStyle) {\\r\\n    return window.getComputedStyle(elmnt,null).getPropertyValue(style);\\r\\n  } else {\\r\\n    retur'\n",
+      "b\"n elmnt.currentStyle[style];\\r\\n  }\\r\\n}\\r\\n</script>\\r\\n</head><body>\\r\\n<div class='w3-container top'>\\r\\n  <a class='w3schools-logo notra\"\n",
+      "b\"nslate' href='//www.w3schools.com'>w3schools<span class='dotcom'>.com</span></a>\\r\\n  <div class='w3-right w3-hide-small w3-wide t\"\n",
+      "b'optext\\' style=\"font-family:\\'Segoe UI\\',Arial,sans-serif\">THE WORLD\\'S LARGEST WEB DEVELOPER SITE</div>\\r\\n</div>\\r\\n\\r\\n<div style=\\'disp'\n",
+      "b\"lay:none;position:absolute;z-index:4;right:52px;height:44px;background-color:#5f5f5f;letter-spacing:normal;' id='googleSearch'>\\r\"\n",
+      "b\"\\n  <div class='gcse-search'></div>\\r\\n</div>\\r\\n<div style='display:none;position:absolute;z-index:3;right:111px;height:44px;backgro\"\n",
+      "b\"und-color:#5f5f5f;text-align:right;padding-top:9px;' id='google_translate_element'></div>\\r\\n\\r\\n<div class='w3-card-2 topnav notran\"\n",
+      "b'slate\\' id=\\'topnav\\'>\\r\\n  <div style=\"overflow:auto;\">\\r\\n    <div class=\"w3-bar w3-left\" style=\"width:100%;overflow:hidden;height:44'\n",
+      "b'px\">\\r\\n      <a href=\\'javascript:void(0);\\' class=\\'topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button\\' onclick=\\'o'\n",
+      "b\"pen_menu()' title='Menu'></a>\\r\\n      <a href='/default.asp' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title=\"\n",
+      "b'\\'Home\\'></a>\\r\\n      <a class=\"w3-bar-item w3-button\" href=\\'/html/default.asp\\' title=\\'HTML Tutorial\\'>HTML</a>\\r\\n      <a class=\"w3-'\n",
+      "b'bar-item w3-button\" href=\\'/css/default.asp\\' title=\\'CSS Tutorial\\'>CSS</a>\\r\\n      <a class=\"w3-bar-item w3-button\" href=\\'/js/defau'\n",
+      "b'lt.asp\\' title=\\'JavaScript Tutorial\\'>JAVASCRIPT</a>\\r\\n      <a class=\"w3-bar-item w3-button\" href=\\'/sql/default.asp\\' title=\\'SQL Tu'\n",
+      "b'torial\\'>SQL</a>\\r\\n      <a class=\"w3-bar-item w3-button\" href=\\'/python/default.asp\\' title=\\'Python Tutorial\\'>PYTHON</a>\\r\\n      <a '\n",
+      "b'class=\"w3-bar-item w3-button\" href=\\'/php/default.asp\\' title=\\'PHP Tutorial\\'>PHP</a>\\r\\n      <a class=\"w3-bar-item w3-button\" href='\n",
+      "b'\\'/bootstrap/bootstrap_ver.asp\\' title=\\'Bootstrap Tutorial\\'>BOOTSTRAP</a>\\r\\n      <a class=\"w3-bar-item w3-button\" href=\\'/howto/def'\n",
+      "b'ault.asp\\' title=\\'How To\\'>HOW TO</a>\\r\\n      <a class=\"w3-bar-item w3-button\" href=\\'/w3css/default.asp\\' title=\\'W3.CSS Tutorial\\'>W3'\n",
+      "b'.CSS</a>\\r\\n      <a class=\"w3-bar-item w3-button\" href=\\'/jquery/default.asp\\' title=\\'jQuery Tutorial\\'>JQUERY</a>\\r\\n      <a class=\"'\n",
+      "b'w3-bar-item w3-button\" href=\\'/xml/default.asp\\' title=\\'XML Tutorial\\'>XML</a>\\r\\n      <a class=\"w3-bar-item w3-button\" id=\\'topnavbt'\n",
+      "b'n_tutorials\\' href=\\'javascript:void(0);\\' onclick=\\'w3_open_nav(\"tutorials\")\\' title=\\'Tutorials\\'>MORE <i class=\\'fa fa-caret-down\\'></'\n",
+      "b\"i><i class='fa fa-caret-up' style='display:none'></i></a>\\r\\n      <a href='javascript:void(0);' class='topnav-icons fa w3-right w\"\n",
+      "b\"3-bar-item w3-button' onclick='open_search(this)' title='Search W3Schools'>&#xe802;</a>\\r\\n      <a href='javascript:void(0);' cla\"\n",
+      "b\"ss='topnav-icons fa w3-right w3-bar-item w3-button' onclick='open_translate(this)' title='Translate W3Schools'>&#xe801;</a>\\r\\n   \"\n",
+      "b'   <a class=\"w3-bar-item w3-button w3-right\" target=\"_blank\" href=\\'/forum/default.asp\\'>FORUM</a>\\r\\n      <a class=\"w3-bar-item w3'\n",
+      "b'-button w3-right\" id=\\'topnavbtn_exercises\\' href=\\'javascript:void(0);\\' onclick=\\'w3_open_nav(\"exercises\")\\' title=\\'Exercises\\'>EXERC'\n",
+      "b'ISES <i class=\\'fa fa-caret-down\\'></i><i class=\\'fa fa-caret-up\\' style=\\'display:none\\'></i></a>\\r\\n      <a class=\"w3-bar-item w3-but'\n",
+      "b'ton w3-right\" id=\\'topnavbtn_references\\' href=\\'javascript:void(0);\\' onclick=\\'w3_open_nav(\"references\")\\' title=\\'References\\'>REFERE'\n",
+      "b\"NCES <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style='display:none'></i></a>\\r\\n    </div>\\r\\n    <div id='nav_tutor\"\n",
+      "b'ials\\' class=\\'w3-bar-block w3-card-2\\' style=\"display:none;\">\\r\\n      <span onclick=\\'w3_close_nav(\"tutorials\")\\' class=\\'w3-button w3'\n",
+      "b'-xlarge w3-right\\' style=\"position:absolute;right:0;font-weight:bold;\">&times;</span>\\r\\n      <div class=\\'w3-row-padding\\' style=\"p'\n",
+      "b'adding:24px 48px\">\\r\\n        <div class=\\'w3-col l3 m6\\'>\\r\\n          <h3>HTML and CSS</h3>\\r\\n          <a class=\"w3-bar-item w3-butt'\n",
+      "b'on\" href=\\'/html/default.asp\\'>Learn HTML</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/css/default.asp\\'>Learn CSS</a>\\r\\n '\n",
+      "b'         <a class=\"w3-bar-item w3-button\" href=\\'/bootstrap/bootstrap_ver.asp\\'>Learn Bootstrap</a>\\r\\n          <a class=\"w3-bar-it'\n",
+      "b'em w3-button\" href=\\'/w3css/default.asp\\'>Learn W3.CSS</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/colors/default.asp\\'>'\n",
+      "b'Learn Colors</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/icons/default.asp\\'>Learn Icons</a>\\r\\n          <a class=\"w3-b'\n",
+      "b'ar-item w3-button\" href=\\'/graphics/default.asp\\'>Learn Graphics</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/graphics/s'\n",
+      "b'vg_intro.asp\\'>Learn SVG</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/graphics/canvas_intro.asp\\'>Learn Canvas</a>\\r\\n    '\n",
+      "b'      <a class=\"w3-bar-item w3-button\" href=\\'/howto/default.asp\\'>Learn How To</a>\\r\\n          <a class=\"w3-bar-item w3-button\" hr'\n",
+      "b'ef=\\'/sass/default.asp\\'>Learn Sass</a>          \\r\\n          <div class=\"w3-hide-large w3-hide-small\">\\r\\n            <h3>XML</h3>\\r\\n'\n",
+      "b'            <a class=\"w3-bar-item w3-button\" href=\\'/xml/default.asp\\'>Learn XML</a>\\r\\n            <a class=\"w3-bar-item w3-button\"'\n",
+      "b' href=\\'/xml/ajax_intro.asp\\'>Learn XML AJAX</a>\\r\\n            <a class=\"w3-bar-item w3-button\" href=\"/xml/dom_intro.asp\">Learn XML'\n",
+      "b' DOM</a>\\r\\n            <a class=\"w3-bar-item w3-button\" href=\\'/xml/xml_dtd_intro.asp\\'>Learn XML DTD</a>\\r\\n            <a class=\"w3'\n",
+      "b'-bar-item w3-button\" href=\\'/xml/schema_intro.asp\\'>Learn XML Schema</a>\\r\\n            <a class=\"w3-bar-item w3-button\" href=\\'/xml/'\n",
+      "b'xsl_intro.asp\\'>Learn XSLT</a>\\r\\n            <a class=\"w3-bar-item w3-button\" href=\\'/xml/xpath_intro.asp\\'>Learn XPath</a>\\r\\n       '\n",
+      "b'     <a class=\"w3-bar-item w3-button\" href=\\'/xml/xquery_intro.asp\\'>Learn XQuery</a>\\r\\n          </div>\\r\\n        </div>\\r\\n        <'\n",
+      "b'div class=\\'w3-col l3 m6\\'>\\r\\n          <h3>JavaScript</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/js/default.asp\\'>Lear'\n",
+      "b'n JavaScript</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/jquery/default.asp\\'>Learn jQuery</a>\\r\\n          <a class=\"w3'\n",
+      "b'-bar-item w3-button\" href=\\'/react/default.asp\\'>Learn React</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/angular/defaul'\n",
+      "b't.asp\\'>Learn AngularJS</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/js/js_json_intro.asp\">Learn JSON</a>\\r\\n          <a'\n",
+      "b' class=\"w3-bar-item w3-button\" href=\\'/js/js_ajax_intro.asp\\'>Learn AJAX</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/w3'\n",
+      "b'js/default.asp\">Learn W3.JS</a>\\r\\n          <h3>Programming</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/python/defaul'\n",
+      "b't.asp\\'>Learn Python</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/java/default.asp\\'>Learn Java</a>\\r\\n          <a class='\n",
+      "b'\"w3-bar-item w3-button\" href=\\'/cpp/default.asp\\'>Learn C++</a>\\r\\n          <div class=\"w3-hide-small\"><br class=\"w3-hide-medium w3'\n",
+      "b'_hide-small\"><br class=\"w3-hide-medium w3_hide-small\"></div>\\r\\n        </div>\\r\\n        <div class=\\'w3-col l3 m6\\'>\\r\\n          <h3>'\n",
+      "b'Server Side</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/sql/default.asp\\'>Learn SQL</a>\\r\\n          <a class=\"w3-bar-i'\n",
+      "b'tem w3-button\" href=\\'/php/default.asp\\'>Learn PHP</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/asp/default.asp\\'>Learn A'\n",
+      "b'SP</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/nodejs/default.asp\\'>Learn Node.js</a>\\r\\n          <a class=\"w3-bar-item'\n",
+      "b' w3-button\" href=\\'/nodejs/nodejs_raspberrypi.asp\\'>Learn Raspberry Pi</a>          \\r\\n          <h3>Web Building</h3>\\r\\n          <'\n",
+      "b'a class=\"w3-bar-item w3-button\" href=\"/w3css/w3css_templates.asp\">Web Templates</a>\\r\\n          <a class=\"w3-bar-item w3-button\" '\n",
+      "b'href=\\'/browsers/default.asp\\'>Web Statistics</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/cert/default.asp\\'>Web Certifi'\n",
+      "b'cates</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/tryit/default.asp\\'>Web Editor</a>\\r\\n          <a class=\"w3-bar-item '\n",
+      "b'w3-button\" href=\"/whatis/default.asp\">Web Development</a>\\r\\n        </div>\\r\\n        <div class=\\'w3-col l3 m6 w3-hide-medium\\'>\\r\\n  '\n",
+      "b'        <h3>XML</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/xml/default.asp\\'>Learn XML</a>\\r\\n          <a class=\"w3-b'\n",
+      "b'ar-item w3-button\" href=\\'/xml/ajax_intro.asp\\'>Learn XML AJAX</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/xml/dom_intr'\n",
+      "b'o.asp\">Learn XML DOM</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/xml/xml_dtd_intro.asp\\'>Learn XML DTD</a>\\r\\n          '\n",
+      "b'<a class=\"w3-bar-item w3-button\" href=\\'/xml/schema_intro.asp\\'>Learn XML Schema</a>\\r\\n          <a class=\"w3-bar-item w3-button\" h'\n",
+      "b'ref=\\'/xml/xsl_intro.asp\\'>Learn XSLT</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/xml/xpath_intro.asp\\'>Learn XPath</a>\\r'\n",
+      "b'\\n          <a class=\"w3-bar-item w3-button\" href=\\'/xml/xquery_intro.asp\\'>Learn XQuery</a>\\r\\n        </div>\\r\\n      </div>\\r\\n      <'\n",
+      "b'br>\\r\\n    </div>\\r\\n    <div id=\\'nav_references\\' class=\\'w3-bar-block w3-card-2\\'>\\r\\n      <span onclick=\\'w3_close_nav(\"references\")\\' '\n",
+      "b'class=\\'w3-button w3-xlarge w3-right\\' style=\"position:absolute;right:0;font-weight:bold;\">&times;</span>\\r\\n      <div class=\\'w3-ro'\n",
+      "b'w-padding\\' style=\"padding:24px 48px\">\\r\\n        <div class=\\'w3-col l3 m6\\'>\\r\\n          <h3>HTML</h3>\\r\\n          <a class=\"w3-bar-i'\n",
+      "b'tem w3-button\" href=\\'/tags/default.asp\\'>HTML Tag Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/tags/ref_event'\n",
+      "b'attributes.asp\\'>HTML Event Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/colors/default.asp\\'>HTML Color Refer'\n",
+      "b'ence</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/tags/ref_attributes.asp\\'>HTML Attribute Reference</a>\\r\\n          <a '\n",
+      "b'class=\"w3-bar-item w3-button\" href=\\'/tags/ref_canvas.asp\\'>HTML Canvas Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" '\n",
+      "b'href=\\'/graphics/svg_reference.asp\\'>HTML SVG Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/charsets/default.as'\n",
+      "b'p\\'>HTML Character Sets</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/graphics/google_maps_reference.asp\\'>Google Maps Re'\n",
+      "b'ference</a>\\r\\n          <h3>CSS</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/cssref/default.asp\\'>CSS Reference</a>\\r\\n  '\n",
+      "b'        <a class=\"w3-bar-item w3-button\" href=\\'/cssref/css3_browsersupport.asp\\'>CSS Browser Support</a>\\r\\n          <a class=\"w3-'\n",
+      "b'bar-item w3-button\" href=\\'/cssref/css_selectors.asp\\'>CSS Selector Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href'\n",
+      "b'=\\'/bootstrap/bootstrap_ref_all_classes.asp\\'>Bootstrap 3 Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/bootstr'\n",
+      "b'ap4/bootstrap_ref_all_classes.asp\\'>Bootstrap 4 Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/w3css/w3css_refe'\n",
+      "b'rences.asp\\'>W3.CSS Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/icons/icons_reference.asp\\'>Icon Reference</a'\n",
+      "b'>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/sass/sass_functions_string.asp\\'>Sass Reference</a>\\r\\n       </div>\\r\\n        '\n",
+      "b'<div class=\\'w3-col l3 m6\\'>\\r\\n          <h3>JavaScript</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/jsref/default.asp\\'>'\n",
+      "b'JavaScript Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/jsref/default.asp\\'>HTML DOM Reference</a>\\r\\n         '\n",
+      "b' <a class=\"w3-bar-item w3-button\" href=\\'/jquery/jquery_ref_overview.asp\\'>jQuery Reference</a>\\r\\n          <a class=\"w3-bar-item w'\n",
+      "b'3-button\" href=\\'/angular/angular_ref_directives.asp\\'>AngularJS Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/'\n",
+      "b'w3js/w3js_references.asp\">W3.JS Reference</a>\\r\\n          <h3>Programming</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\''\n",
+      "b'/python/python_reference.asp\\'>Python Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/java/java_ref_keywords.asp'\n",
+      "b'\\'>Java Reference</a>\\r\\n        </div>\\r\\n        <div class=\\'w3-col l3 m6\\'>\\r\\n          <h3>Server Side</h3>\\r\\n          <a class=\"w3'\n",
+      "b'-bar-item w3-button\" href=\\'/sql/sql_ref_keywords.asp\\'>SQL Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/php/p'\n",
+      "b'hp_ref_overview.asp\\'>PHP Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/asp/asp_ref_response.asp\\'>ASP Referenc'\n",
+      "b'e</a>\\r\\n          <h3>XML</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/xml/dom_nodetype.asp\\'>XML Reference</a>\\r\\n      '\n",
+      "b'    <a class=\"w3-bar-item w3-button\" href=\\'/xml/dom_http.asp\\'>XML Http Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\"'\n",
+      "b' href=\\'/xml/xsl_elementref.asp\\'>XSLT Reference</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/xml/schema_elements_ref.as'\n",
+      "b\"p'>XML Schema Reference</a>\\r\\n        </div>\\r\\n        <div class='w3-col l3 m6 w3-hide-medium w3-hide-small'>\\r\\n          <h3>Char\"\n",
+      "b'acter Sets</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/charsets/default.asp\\'>HTML Character Sets</a>\\r\\n          <a c'\n",
+      "b'lass=\"w3-bar-item w3-button\" href=\\'/charsets/ref_html_ascii.asp\\'>HTML ASCII</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href'\n",
+      "b'=\\'/charsets/ref_html_ansi.asp\\'>HTML ANSI</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/charsets/ref_html_ansi.asp\\'>HTML'\n",
+      "b' Windows-1252</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/charsets/ref_html_8859.asp\\'>HTML ISO-8859-1</a>\\r\\n          '\n",
+      "b'<a class=\"w3-bar-item w3-button\" href=\\'/charsets/ref_html_symbols.asp\\'>HTML Symbols</a>\\r\\n          <a class=\"w3-bar-item w3-butt'\n",
+      "b'on\" href=\\'/charsets/ref_html_utf8.asp\\'>HTML UTF-8</a>\\r\\n        </div>\\r\\n      </div>\\r\\n      <br>\\r\\n    </div>\\r\\n    <div id=\\'nav_ex'\n",
+      "b'ercises\\' class=\\'w3-bar-block w3-card-2\\'>\\r\\n      <span onclick=\\'w3_close_nav(\"exercises\")\\' class=\\'w3-button w3-xlarge w3-right\\' s'\n",
+      "b'tyle=\"position:absolute;right:0;font-weight:bold;\">&times;</span>\\r\\n      <div class=\\'w3-row-padding\\' style=\"padding:24px 48px\">\\r'\n",
+      "b'\\n        <div class=\\'w3-col l4 m6\\'>\\r\\n          <h3>Exercises</h3>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/html/html_e'\n",
+      "b'xercises.asp\">HTML Exercises</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/css/css_exercises.asp\">CSS Exercises</a>\\r\\n  '\n",
+      "b'        <a class=\"w3-bar-item w3-button\" href=\"/js/js_exercises.asp\">JavaScript Exercises</a>\\r\\n          <a class=\"w3-bar-item w'\n",
+      "b'3-button\" href=\"/sql/sql_exercises.asp\">SQL Exercises</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/php/php_exercises.a'\n",
+      "b'sp\">PHP Exercises</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/python/python_exercises.asp\">Python Exercises</a>\\r\\n    '\n",
+      "b'      <a class=\"w3-bar-item w3-button\" href=\"/jquery/jquery_exercises.asp\">jQuery Exercises</a>\\r\\n          <a class=\"w3-bar-item'\n",
+      "b' w3-button\" href=\"/bootstrap/bootstrap_exercises.asp\">Bootstrap Exercises</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"'\n",
+      "b'/java/java_exercises.asp\">Java Exercises</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/cpp/cpp_exercises.asp\">C++ Exerc'\n",
+      "b'ises</a>\\r\\n        </div>\\r\\n        <div class=\\'w3-col l4 m6\\'>\\r\\n          <h3>Quizzes</h3>\\r\\n          <a class=\"w3-bar-item w3-but'\n",
+      "b'ton\" href=\\'/html/html_quiz.asp\\' target=\\'_top\\'>HTML Quiz</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/css/css_quiz.asp\\''\n",
+      "b' target=\\'_top\\'>CSS Quiz</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/js/js_quiz.asp\\' target=\\'_top\\'>JavaScript Quiz</a>'\n",
+      "b'\\r\\n          <a class=\"w3-bar-item w3-button\" href=\"/sql/sql_quiz.asp\" target=\"_top\">SQL Quiz</a>\\r\\n          <a class=\"w3-bar-ite'\n",
+      "b'm w3-button\" href=\\'/php/php_quiz.asp\\' target=\\'_top\\'>PHP Quiz</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/python/pytho'\n",
+      "b'n_quiz.asp\\' target=\\'_top\\'>Python Quiz</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/jquery/jquery_quiz.asp\\' target=\\'_to'\n",
+      "b'p\\'>jQuery Quiz</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/bootstrap/bootstrap_quiz.asp\\' target=\\'_top\\'>Bootstrap Quiz'\n",
+      "b'</a>\\r\\n          <a class=\"w3-bar-item w3-button\" href=\\'/xml/xml_quiz.asp\\' target=\\'_top\\'>XML Quiz</a>\\r\\n        </div>\\r\\n        <d'\n",
+      "b'iv class=\\'w3-col l4 m12\\'>\\r\\n         <h3>Certificates</h3>\\r\\n         <a class=\"w3-bar-item w3-button\" href=\"/cert/cert_html_new.a'\n",
+      "b'sp\" target=\"_top\">HTML Certificate</a>\\r\\n         <a class=\"w3-bar-item w3-button\" href=\"/cert/cert_css.asp\" target=\"_top\">CSS Ce'\n",
+      "b'rtificate</a>\\r\\n         <a class=\"w3-bar-item w3-button\" href=\"/cert/cert_javascript.asp\" target=\"_top\">JavaScript Certificate</'\n",
+      "b'a>\\r\\n         <a class=\"w3-bar-item w3-button\" href=\"/cert/cert_sql.asp\" target=\"_top\">SQL Certificate</a>\\r\\n         <a class=\"w3'\n",
+      "b'-bar-item w3-button\" href=\"/cert/cert_php.asp\" target=\"_top\">PHP Certificate</a>\\r\\n         <a class=\"w3-bar-item w3-button\" href'\n",
+      "b'=\"/cert/cert_python.asp\" target=\"_top\">Python Certificate</a>\\r\\n         <a class=\"w3-bar-item w3-button\" href=\"/cert/cert_jquery'\n",
+      "b'.asp\" target=\"_top\">jQuery Certificate</a>\\r\\n         <a class=\"w3-bar-item w3-button\" href=\"/cert/cert_bootstrap.asp\" target=\"_t'\n",
+      "b'op\">Bootstrap Certificate</a>\\r\\n         <a class=\"w3-bar-item w3-button\" href=\"/cert/cert_xml.asp\" target=\"_top\">XML Certificate'\n",
+      "b\"</a>\\r\\n        </div>\\r\\n      </div>\\r\\n      <br>\\r\\n    </div>\\r\\n  </div>\\r\\n</div>\\r\\n\\r\\n<div class='w3-sidebar w3-collapse' id='sidenav'\"\n",
+      "b\">\\r\\n  <div id='leftmenuinner'>\\r\\n    <div class='w3-light-grey' id='leftmenuinnerinner'>\\r\\n<!--  <a href='javascript:void(0)' oncli\"\n",
+      "b\"ck='close_menu()' class='w3-button w3-hide-large w3-large w3-display-topright' style='right:16px;padding:3px 12px;font-weight:bo\"\n",
+      "b'ld;\\'>&times;</a>-->\\r\\n<h2 class=\"left\"><span class=\"left_h2\">Python</span> Tutorial</h2>\\r\\n<a target=\"_top\" href=\"default.asp\">Pyt'\n",
+      "b'hon HOME</a>\\r\\n<a target=\"_top\" href=\"python_intro.asp\">Python Intro</a>\\r\\n<a target=\"_top\" href=\"python_getstarted.asp\">Python Ge'\n",
+      "b't Started</a>\\r\\n<a target=\"_top\" href=\"python_syntax.asp\">Python Syntax</a>\\r\\n<a target=\"_top\" href=\"python_comments.asp\">Python C'\n",
+      "b'omments</a>\\r\\n<a target=\"_top\" href=\"python_variables.asp\">Python Variables</a>\\r\\n<a target=\"_top\" href=\"python_datatypes.asp\">Pyt'\n",
+      "b'hon Data Types</a>\\r\\n<a target=\"_top\" href=\"python_numbers.asp\">Python Numbers</a>\\r\\n<!--<a target=\"_top\" href=\"python_primitivety'\n",
+      "b'pes.asp\">Python Primitive Types</a>-->\\r\\n<a target=\"_top\" href=\"python_casting.asp\">Python Casting</a>\\r\\n<a target=\"_top\" href=\"py'\n",
+      "b'thon_strings.asp\">Python Strings</a>\\r\\n<a target=\"_top\" href=\"python_booleans.asp\">Python Booleans</a>\\r\\n<a target=\"_top\" href=\"py'\n",
+      "b'thon_operators.asp\">Python Operators</a>\\r\\n<a target=\"_top\" href=\"python_lists.asp\">Python Lists</a>\\r\\n<a target=\"_top\" href=\"pyth'\n",
+      "b'on_tuples.asp\">Python Tuples</a>\\r\\n<a target=\"_top\" href=\"python_sets.asp\">Python Sets</a>\\r\\n<a target=\"_top\" href=\"python_diction'\n",
+      "b'aries.asp\">Python Dictionaries</a>\\r\\n<a target=\"_top\" href=\"python_conditions.asp\">Python If...Else</a>\\r\\n<a target=\"_top\" href=\"p'\n",
+      "b'ython_while_loops.asp\">Python While Loops</a>\\r\\n<a target=\"_top\" href=\"python_for_loops.asp\">Python For Loops</a>\\r\\n<!--<a target='\n",
+      "b'\"_top\" href=\"python_dataprocessing.asp\">Python Data Processing</a>-->\\r\\n<a target=\"_top\" href=\"python_functions.asp\">Python Funct'\n",
+      "b'ions</a>\\r\\n<a target=\"_top\" href=\"python_lambda.asp\">Python Lambda</a>\\r\\n<a target=\"_top\" href=\"python_arrays.asp\">Python Arrays</'\n",
+      "b'a>\\r\\n<a target=\"_top\" href=\"python_classes.asp\">Python Classes/Objects</a>\\r\\n<a target=\"_top\" href=\"python_inheritance.asp\">Python'\n",
+      "b' Inheritance</a>\\r\\n<a target=\"_top\" href=\"python_iterators.asp\">Python Iterators</a>\\r\\n<a target=\"_top\" href=\"python_scope.asp\">Py'\n",
+      "b'thon Scope</a>\\r\\n<a target=\"_top\" href=\"python_modules.asp\">Python Modules</a>\\r\\n<a target=\"_top\" href=\"python_datetime.asp\">Pytho'\n",
+      "b'n Dates</a>\\r\\n<a target=\"_top\" href=\"python_json.asp\">Python JSON</a>\\r\\n<a target=\"_top\" href=\"python_regex.asp\">Python RegEx</a>\\r'\n",
+      "b'\\n<a target=\"_top\" href=\"python_pip.asp\">Python PIP</a>\\r\\n<a target=\"_top\" href=\"python_try_except.asp\">Python Try...Except</a>\\r\\n<'\n",
+      "b'a target=\"_top\" href=\"python_cmd_input.asp\">Python Command Input</a>\\r\\n<a target=\"_top\" href=\"python_string_formatting.asp\">Pytho'\n",
+      "b'n String Formatting</a>\\r\\n<br>\\r\\n<h2 class=\"left\">File Handling</h2>\\r\\n<a target=\"_top\" href=\"python_file_handling.asp\">Python File'\n",
+      "b' Handling</a>\\r\\n<a target=\"_top\" href=\"python_file_open.asp\">Python Read Files</a>\\r\\n<a target=\"_top\" href=\"python_file_write.asp\"'\n",
+      "b'>Python Write/Create Files</a>\\r\\n<a target=\"_top\" href=\"python_file_remove.asp\">Python Delete Files</a>\\r\\n<br>\\r\\n<h2 class=\"left\">P'\n",
+      "b'ython MySQL</h2>\\r\\n<a target=\"_top\" href=\"python_mysql_getstarted.asp\">MySQL Get Started</a>\\r\\n<a target=\"_top\" href=\"python_mysql'\n",
+      "b'_create_db.asp\">MySQL Create Database</a>\\r\\n<a target=\"_top\" href=\"python_mysql_create_table.asp\">MySQL Create Table</a>\\r\\n<a targ'\n",
+      "b'et=\"_top\" href=\"python_mysql_insert.asp\">MySQL Insert</a>\\r\\n<a target=\"_top\" href=\"python_mysql_select.asp\">MySQL Select</a>\\r\\n<a '\n",
+      "b'target=\"_top\" href=\"python_mysql_where.asp\">MySQL Where</a>\\r\\n<a target=\"_top\" href=\"python_mysql_orderby.asp\">MySQL Order By</a>'\n",
+      "b'\\r\\n<a target=\"_top\" href=\"python_mysql_delete.asp\">MySQL Delete</a>\\r\\n<a target=\"_top\" href=\"python_mysql_drop_table.asp\">MySQL Dr'\n",
+      "b'op Table</a>\\r\\n<a target=\"_top\" href=\"python_mysql_update.asp\">MySQL Update</a>\\r\\n<a target=\"_top\" href=\"python_mysql_limit.asp\">M'\n",
+      "b'ySQL Limit</a>\\r\\n<a target=\"_top\" href=\"python_mysql_join.asp\">MySQL Join</a>\\r\\n<br>\\r\\n<h2 class=\"left\">Python MongoDB</h2>\\r\\n<a tar'\n",
+      "b'get=\"_top\" href=\"python_mongodb_getstarted.asp\">MongoDB Get Started</a>\\r\\n<a target=\"_top\" href=\"python_mongodb_create_db.asp\">Mo'\n",
+      "b'ngoDB Create Database</a>\\r\\n<a target=\"_top\" href=\"python_mongodb_create_collection.asp\">MongoDB Create Collection</a>\\r\\n<a target'\n",
+      "b'=\"_top\" href=\"python_mongodb_insert.asp\">MongoDB Insert</a>\\r\\n<a target=\"_top\" href=\"python_mongodb_find.asp\">MongoDB Find</a>\\r\\n<'\n",
+      "b'a target=\"_top\" href=\"python_mongodb_query.asp\">MongoDB Query</a>\\r\\n<a target=\"_top\" href=\"python_mongodb_sort.asp\">MongoDB Sort<'\n",
+      "b'/a>\\r\\n<a target=\"_top\" href=\"python_mongodb_delete.asp\">MongoDB Delete</a>\\r\\n<a target=\"_top\" href=\"python_mongodb_drop_collection'\n",
+      "b'.asp\">MongoDB Drop Collection</a>\\r\\n<a target=\"_top\" href=\"python_mongodb_update.asp\">MongoDB Update</a>\\r\\n<a target=\"_top\" href=\"'\n",
+      "b'python_mongodb_limit.asp\">MongoDB Limit</a>\\r\\n<!--\\r\\n<a target=\"_top\" href=\"python_classes.asp\">Python Classes</a>\\r\\n<a target=\"_to'\n",
+      "b'p\" href=\"python_aspectoriented.asp\">Python as Aspect Oriented</a>\\r\\n<a target=\"_top\" href=\"python_filehandling.asp\">Python File H'\n",
+      "b'andling</a>\\r\\n<a target=\"_top\" href=\"python_database.asp\">Python Database</a>\\r\\n<a target=\"_top\" href=\"python_webapps.asp\">Python '\n",
+      "b'Web Applications</a>\\r\\n<a target=\"_top\" href=\"python_workflows.asp\">Python Workflows</a>\\r\\n<a target=\"_top\" href=\"python_maths.asp'\n",
+      "b'\">Python Maths & Science</a>\\r\\n<a target=\"_top\" href=\"python_regexp.asp\">Python Regular Expressions</a>\\r\\n<a target=\"_top\" href=\"p'\n",
+      "b'ython_unittesting.asp\">Python Unit Testing</a>\\r\\n-->\\r\\n\\r\\n<br>\\r\\n<h2 class=\"left\">Python Reference</h2>\\r\\n<a target=\"_top\" href=\"pyth'\n",
+      "b'on_reference.asp\">Python Overview</a>\\r\\n<a target=\"_top\" href=\"python_ref_functions.asp\">Python Built-in Functions</a>\\r\\n<a target'\n",
+      "b'=\"_top\" href=\"python_ref_string.asp\">Python String Methods</a>\\r\\n<a target=\"_top\" href=\"python_ref_list.asp\">Python List Methods<'\n",
+      "b'/a>\\r\\n<a target=\"_top\" href=\"python_ref_dictionary.asp\">Python Dictionary Methods</a>\\r\\n<a target=\"_top\" href=\"python_ref_tuple.as'\n",
+      "b'p\">Python Tuple Methods</a>\\r\\n<a target=\"_top\" href=\"python_ref_set.asp\">Python Set Methods</a>\\r\\n<a target=\"_top\" href=\"python_re'\n",
+      "b'f_file.asp\">Python File Methods</a>\\r\\n<a target=\"_top\" href=\"python_ref_keywords.asp\">Python Keywords</a>\\r\\n\\r\\n<br>\\r\\n<h2 class=\"lef'\n",
+      "b't\">Module Reference</h2>\\r\\n<a target=\"_top\" href=\"module_random.asp\">Random Module</a>\\r\\n<a target=\"_top\" href=\"module_requests.as'\n",
+      "b'p\">Requests Module</a>\\r\\n\\r\\n<br>\\r\\n<h2 class=\"left\">Python How To</h2>\\r\\n<a target=\"_top\" href=\"python_howto_remove_duplicates.asp\">'\n",
+      "b'Remove List Duplicates</a>\\r\\n<a target=\"_top\" href=\"python_howto_reverse_string.asp\">Reverse a String</a>\\r\\n\\r\\n<br>\\r\\n<h2 class=\"lef'\n",
+      "b't\">Python Examples</h2>\\r\\n<a target=\"_top\" href=\"python_examples.asp\">Python Examples</a>\\r\\n<a target=\"_top\" href=\"python_exercise'\n",
+      "b's.asp\">Python Exercises</a>\\r\\n<a target=\"_top\" href=\"python_quiz.asp\">Python Quiz</a>\\r\\n<a target=\"_top\" href=\"python_exam.asp\">Py'\n",
+      "b\"thon Certificate</a>\\r\\n\\r\\n      <br><br>\\r\\n    </div>\\r\\n  </div>\\r\\n</div>\\r\\n<div class='w3-main w3-light-grey' id='belowtopnav' style=\"\n",
+      "b\"'margin-left:220px;'>\\r\\n  <div class='w3-row w3-white'>\\r\\n    <div class='w3-col l10 m12' id='main'>\\r\\n      <div id='mainLeaderboa\"\n",
+      "b\"rd' style='overflow:hidden;'>\\r\\n        <!-- MainLeaderboard-->\\r\\n\\r\\n        <!--<pre>main_leaderboard, all: [728,90][970,90][320,5\"\n",
+      "b'0][468,60]</pre>-->\\r\\n        <div id=\"snhb-main_leaderboard-0\"></div>\\r\\n        <!-- adspace leaderboard -->\\r\\n       \\r\\n      </di'\n",
+      "b'v>\\r\\n<h1>Python <span class=\"color_h1\">Tutorial</span></h1>\\r\\n<div class=\"w3-clear nextprev\">\\r\\n<a class=\"w3-left w3-btn\" href=\"/de'\n",
+      "b'fault.asp\">&#10094; Home</a>\\r\\n<a class=\"w3-right w3-btn\" href=\"python_intro.asp\">Next &#10095;</a>\\r\\n</div>\\r\\n\\r\\n<div class=\"w3-pan'\n",
+      "b'el w3-info intro\">\\r\\n<p>Python is a programming language.</p>\\r\\n<p>Python can be used on a server to create web applications.</p>\\r'\n",
+      "b'\\n<a class=\"w3-btn w3-margin-bottom\" href=\"python_intro.asp\">Start learning Python now &raquo;</a>\\r\\n</div>\\r\\n\\r\\n<hr>\\r\\n\\r\\n<h2>Learnin'\n",
+      "b'g by Examples</h2>\\r\\n<p>Our &quot;Show Python&quot; tool makes it easy to learn Python, it shows both the \\r\\ncode and the result.<'\n",
+      "b'/p>\\r\\n\\r\\n<div class=\"w3-example\">\\r\\n<h3>Example</h3>\\r\\n<div class=\"w3-code notranslate pythonHigh\">\\r\\nprint(\"Hello, World!\")\\r\\n</div>\\r'\n",
+      "b'\\n<a target=\"_blank\" class=\"w3-btn w3-margin-bottom\" href=\"showpython.asp?filename=demo_default\">Run example &raquo;</a>\\r\\n</div>\\r'\n",
+      "b'\\n\\r\\n<p><b>Click on the &quot;Run example&quot; button to see how it works.</b></p>\\r\\n<hr>\\r\\n\\r\\n<h2>Python File Handling</h2>\\r\\n<p>In '\n",
+      "b'our File Handling section you will learn how to open, read, write, and \\r\\ndelete files.</p>\\r\\n<p><a href=\"python_file_handling.asp'\n",
+      "b'\">Python File Handling</a></p>\\r\\n\\r\\n<hr>\\r\\n\\r\\n<h2>Python Database Handling</h2>\\r\\n<p>In our database section you will learn how to ac'\n",
+      "b'cess and work with MySQL and MongoDB databases:</p>\\r\\n<p><a href=\"python_mysql_getstarted.asp\">Python MySQL Tutorial</a></p>\\r\\n\\r\\n<'\n",
+      "b'p><a href=\"python_mongodb_getstarted.asp\">Python MongoDB Tutorial</a></p>\\r\\n\\r\\n<hr>\\r\\n\\r\\n<h2>Python Exercises</h2>\\r\\n<form autocomple'\n",
+      "b'te=\"off\" id=\"w3-exerciseform\" action=\"exercise.asp?filename=exercise_syntax1\" method=\"post\" target=\"_blank\">\\r\\n<h2>Test Yourself '\n",
+      "b'With Exercises</h2>\\r\\n<div class=\"exercisewindow\">\\r\\n<h2>Exercise:</h2>\\r\\n<p>Insert the missing part of the code below to output \"H'\n",
+      "b'ello World\".</p>\\r\\n<div class=\"exerciseprecontainer\">\\r\\n<pre>\\r\\n<input name=\"ex1\" maxlength=\"5\" style=\"width: 54px;\">(\"Hello World\"'\n",
+      "b')\\r\\n</pre>\\r\\n</div>\\r\\n<br>\\r\\n<button type=\"submit\" class=\"w3-btn w3-margin-bottom\">Submit Answer &raquo;</button>\\r\\n<p><a target=\"_bl'\n",
+      "b'ank\" href=\"exercise.asp?filename=exercise_syntax1\">Start the Exercise</a></p>\\r\\n</div>\\r\\n</form>\\r\\n\\r\\n<hr>\\r\\n<div id=\"midcontentadcon'\n",
+      "b'tainer\" style=\"overflow:auto;text-align:center\">\\r\\n<!-- MidContent -->\\r\\n\\r\\n  <!--<pre>mid_content, all: [300,250][336,280][728,90]'\n",
+      "b'[970,250][970,90][320,50][468,60]</pre>-->\\r\\n  <div id=\"snhb-mid_content-0\"></div>\\r\\n    \\r\\n</div>\\r\\n<hr>\\r\\n\\r\\n<h2>Python Examples</h2'\n",
+      "b'>\\r\\n<p>Learn by examples! This tutorial supplements all explanations with clarifying examples.</p>\\r\\n<p><a href=\"python_examples.a'\n",
+      "b'sp\" class=\"w3-button w3-light-grey\">See All Python Examples</a></p>\\r\\n<hr>\\r\\n\\r\\n<h2>Python Quiz</h2>\\r\\n<p>Learn by taking a quiz! Th'\n",
+      "b'is quiz will give you a signal of how much you know, or do not know, about Python.</p>\\r\\n<p><a href=\"python_quiz.asp\" class=\"w3-b'\n",
+      "b'tn w3-blue\">Python Quiz</a></p>\\r\\n<hr>\\r\\n\\r\\n\\r\\n<h2>Python Reference</h2>\\r\\n<p>You will also find complete function and method referen'\n",
+      "b'ces:</p>\\r\\n<p><a href=\"python_reference.asp\">Reference Overview</a></p>\\r\\n<p><a href=\"python_ref_functions.asp\">Built-in Functions'\n",
+      "b'</a></p>\\r\\n<p><a href=\"python_ref_string.asp\">String Methods</a></p>\\r\\n<p><a href=\"python_ref_list.asp\">List/Array Methods</a></p>'\n",
+      "b'\\r\\n<p><a href=\"python_ref_dictionary.asp\">Dictionary Methods</a></p>\\r\\n<p><a href=\"python_ref_tuple.asp\">Tuple Methods</a></p>\\r\\n<p'\n",
+      "b'><a href=\"python_ref_set.asp\">Set Methods</a></p>\\r\\n<p><a href=\"python_ref_file.asp\">File Methods</a></p>\\r\\n<p><a href=\"python_ref'\n",
+      "b'_keywords.asp\">Python Keywords</a></p>\\r\\n<hr>\\r\\n<h2>Download Python</h2>\\r\\n<p>Download Python from the official Python web site:\\r\\n '\n",
+      "b' <a target=\"_blank\" href=\"https://python.org/\">https://python.org</a></p>\\r\\n<hr>\\r\\n\\r\\n<h2>Python Exam - Get Your Diploma!</h2>\\r\\n<di'\n",
+      "b'v class=\"w3-row\">\\r\\n<div class=\"w3-third w3-container w3-padding-24\"><a href=\"/cert/default.asp\"><img src=\"/images/w3certified_lo'\n",
+      "b'go_250.png\" style=\"max-width:100%;\" alt=\"W3Schools Certification\" /></a> </div>\\r\\n<div class=\"w3-twothird w3-container\"><h2>W3Sch'\n",
+      "b\"ools' Online Certification</h2>\\r\\n<p>The perfect solution for professionals who need to balance work, family, and career building\"\n",
+      "b'.</p>\\r\\n<p>More than 25 000 certificates already issued!</p>\\r\\n</div>\\r\\n</div>\\r\\n<p><a class=\"w3-btn\" href=\"/cert/default.asp\">Get Y'\n",
+      "b'our Certificate &raquo;</a></p>\\r\\n<p style=\"clear:both;\">The <a href=\"/cert/default.asp\">HTML Certificate</a> documents your know'\n",
+      "b'ledge of HTML.</p>\\r\\n<p>The <a href=\"/cert/default.asp\">CSS Certificate</a> documents your knowledge of advanced CSS.</p>\\r\\n<p>The'\n",
+      "b' <a href=\"/cert/default.asp\">JavaScript Certificate</a> documents your knowledge of JavaScript and HTML DOM.</p>\\r\\n<p>The <a href'\n",
+      "b'=\"/cert/default.asp\">Python Certificate</a> documents your knowledge of Python.</p>\\r\\n<p>The <a href=\"/cert/default.asp\">jQuery C'\n",
+      "b'ertificate</a> documents your knowledge of jQuery.</p>\\r\\n<p>The <a href=\"/cert/default.asp\">SQL Certificate</a> documents your kn'\n",
+      "b'owledge of SQL.</p>\\r\\n<p>The <a href=\"/cert/default.asp\">PHP Certificate</a> documents your knowledge of PHP and MySQL.</p>\\r\\n<p>T'\n",
+      "b'he <a href=\"/cert/default.asp\">XML Certificate</a> documents your knowledge of XML, XML DOM and XSLT.</p>\\r\\n<p>The <a href=\"/cert'\n",
+      "b'/default.asp\">Bootstrap Certificate</a> documents your knowledge of the Bootstrap framework.</p>\\r\\n\\r\\n\\r\\n<div class=\"w3-clear nextp'\n",
+      "b'rev\">\\r\\n<a class=\"w3-left w3-btn\" href=\"/default.asp\">&#10094; Home</a>\\r\\n<a class=\"w3-right w3-btn\" href=\"python_intro.asp\">Next '\n",
+      "b'&#10095;</a>\\r\\n</div>\\r\\n</div>\\r\\n<div class=\"w3-col l2 m12\" id=\"right\">\\r\\n\\r\\n<div class=\"sidesection\">\\r\\n  <div id=\"skyscraper\">\\r\\n  \\r\\n'\n",
+      "b'    <!--<pre>wide_skyscraper, all: [160,600][300,600][320,50][120,600][300,1050]</pre>-->\\r\\n    <div id=\"snhb-wide_skyscraper-0\">'\n",
+      "b'</div>\\r\\n    <!-- adspace wide-->\\r\\n  \\r\\n  </div>\\r\\n</div>\\r\\n\\r\\n<div class=\"sidesection\">\\r\\n<h4><a href=\"/colors/colors_picker.asp\">COL'\n",
+      "b'OR PICKER</a></h4>\\r\\n<a href=\"/colors/colors_picker.asp\">\\r\\n<img src=\"/images/colorpicker.gif\" alt=\"colorpicker\"></a>\\r\\n</div>\\r\\n\\r\\n<'\n",
+      "b'div class=\"sidesection\" id=\"moreAboutSubject\">\\r\\n</div>\\r\\n\\r\\n<!--\\r\\n<div id=\"sidesection_exercise\" class=\"sidesection\" style=\"backgr'\n",
+      "b'ound-color:#555555;max-width:200px;margin:auto;margin-bottom:32px\">\\r\\n  <div class=\"w3-container w3-text-white\">\\r\\n    <h4>Exercis'\n",
+      "b'es</h4>\\r\\n  </div>\\r\\n  <div>\\r\\n    <div class=\"w3-light-grey\">\\r\\n      <a target=\"_blank\" href=\"/html/exercise.asp\" style=\"padding-t'\n",
+      "b'op:8px\">HTML</a>\\r\\n      <a target=\"_blank\" href=\"/css/exercise.asp\">CSS</a>\\r\\n      <a target=\"_blank\" href=\"/js/exercise_js.asp\"'\n",
+      "b'>JavaScript</a>\\r\\n      <a target=\"_blank\" href=\"/sql/exercise.asp\">SQL</a>\\r\\n      <a target=\"_blank\" href=\"/php/exercise.asp\">PH'\n",
+      "b'P</a>\\r\\n      <a target=\"_blank\" href=\"/python/exercise.asp\">Python</a>\\r\\n      <a target=\"_blank\" href=\"/bootstrap/exercise_bs3.a'\n",
+      "b'sp\">Bootstrap</a>\\r\\n      <a target=\"_blank\" href=\"/jquery/exercise_jq.asp\" style=\"padding-bottom:8px\">jQuery</a>\\r\\n    </div>\\r\\n  '\n",
+      "b'</div>\\r\\n</div>\\r\\n-->\\r\\n\\r\\n<div class=\"sidesection w3-light-grey\" style=\"margin-left:auto;margin-right:auto;max-width:230px\">\\r\\n  <di'\n",
+      "b'v class=\"w3-container w3-dark-grey\">\\r\\n    <h4><a href=\"/howto/default.asp\" class=\"w3-hover-text-white\">HOW TO</a></h4>\\r\\n  </div>'\n",
+      "b'\\r\\n  <div class=\"w3-container w3-left-align w3-padding-16\">\\r\\n    <a href=\"/howto/howto_js_tabs.asp\">Tabs</a><br>\\r\\n    <a href=\"/h'\n",
+      "b'owto/howto_css_dropdown.asp\">Dropdowns</a><br>\\r\\n    <a href=\"/howto/howto_js_accordion.asp\">Accordions</a><br>\\r\\n    <a href=\"/ho'\n",
+      "b'wto/howto_js_sidenav.asp\">Side Navigation</a><br>\\r\\n    <a href=\"/howto/howto_js_topnav.asp\">Top Navigation</a><br>\\r\\n    <a href='\n",
+      "b'\"/howto/howto_css_modals.asp\">Modal Boxes</a><br>\\r\\n    <a href=\"/howto/howto_js_progressbar.asp\">Progress Bars</a><br>\\r\\n    <a h'\n",
+      "b'ref=\"/howto/howto_css_parallax.asp\">Parallax</a><br>\\r\\n    <a href=\"/howto/howto_css_login_form.asp\">Login Form</a><br>\\r\\n    <a h'\n",
+      "b'ref=\"/howto/howto_html_include.asp\">HTML Includes</a><br>\\r\\n    <a href=\"/howto/howto_google_maps.asp\">Google Maps</a><br>\\r\\n    <'\n",
+      "b'a href=\"/howto/howto_js_rangeslider.asp\">Range Sliders</a><br>\\r\\n    <a href=\"/howto/howto_css_tooltip.asp\">Tooltips</a><br>\\r\\n   '\n",
+      "b' <a href=\"/howto/howto_js_slideshow.asp\">Slideshow</a><br>\\r\\n    <a href=\"/howto/howto_js_filter_lists.asp\">Filter List</a><br>\\r\\n'\n",
+      "b'    <a href=\"/howto/howto_js_sort_list.asp\">Sort List</a><br>\\r\\n  </div>\\r\\n</div>\\r\\n\\r\\n<div class=\"sidesection\">\\r\\n<h4>SHARE</h4>\\r\\n<d'\n",
+      "b'iv class=\"w3-text-grey sharethis\">\\r\\n<script>\\r\\n<!--\\r\\ntry{\\r\\nloc=location.pathname;\\r\\nif (loc.toUpperCase().indexOf(\".ASP\")<0) loc=l'\n",
+      "b'oc+\"default.asp\";\\r\\ntxt=\\'<a href=\"http://www.facebook.com/sharer.php?u=https://www.w3schools.com\\'+loc+\\'\" target=\"_blank\" title=\"F'\n",
+      "b'acebook\"><span class=\"fa fa-facebook-square fa-2x\"></span></a>\\';\\r\\ntxt=txt+\\'<a href=\"https://twitter.com/home?status=Currently re'\n",
+      "b'ading https://www.w3schools.com\\'+loc+\\'\" target=\"_blank\" title=\"Twitter\"><span class=\"fa fa-twitter-square fa-2x\"></span></a>\\';\\r\\n'\n",
+      "b'document.write(txt);\\r\\n} catch(e) {}\\r\\n//-->\\r\\n</script>\\r\\n<br><br>\\r\\n<a href=\"javascript:void(0);\" onclick=\"clickFBLike()\" title=\"Li'\n",
+      "b'ke W3Schools on Facebook\">\\r\\n<span class=\"fa fa-thumbs-o-up fa-2x\"></span></a>\\r\\n<div id=\"fblikeframe\" class=\"w3-modal\">\\r\\n<div cla'\n",
+      "b'ss=\"w3-modal-content w3-padding-64 w3-animate-zoom\" id=\"popupDIV\"></div>\\r\\n</div>\\r\\n</div>\\r\\n</div>\\r\\n\\r\\n<div class=\"sidesection\">\\r\\n<'\n",
+      "b'h4><a target=\"_blank\" href=\"//www.w3schools.com/cert/default.asp\">CERTIFICATES</a></h4>\\r\\n<p>\\r\\n<a href=\"/cert/cert_html.asp\">HTML'\n",
+      "b'</a><br>\\r\\n<a href=\"/cert/cert_css.asp\">CSS</a><br>\\r\\n<a href=\"/cert/cert_javascript.asp\">JavaScript</a><br>\\r\\n<a href=\"/cert/cert_'\n",
+      "b'sql.asp\">SQL</a><br>\\r\\n<a href=\"/cert/cert_python.asp\">Python</a><br>\\r\\n<a href=\"/cert/cert_php.asp\">PHP</a><br>\\r\\n<a href=\"/cert/c'\n",
+      "b'ert_jquery.asp\">jQuery</a><br>\\r\\n<a href=\"/cert/cert_bootstrap.asp\">Bootstrap</a><br>\\r\\n<a href=\"/cert/cert_xml.asp\">XML</a></p>\\r\\n'\n",
+      "b'<a href=\"//www.w3schools.com/cert/default.asp\" class=\"w3-button w3-dark-grey\" style=\"text-decoration:none\">\\r\\nRead More &raquo;</'\n",
+      "b'a>\\r\\n</div>\\r\\n\\r\\n<div id=\"stickypos\" class=\"sidesection\" style=\"text-align:center;position:sticky;top:50px;\">\\r\\n  <div id=\"stickyadc'\n",
+      "b'ontainer\">\\r\\n    <div style=\"position:relative;margin:auto;\">\\r\\n      \\r\\n      <!--<pre>sidebar_sticky, desktop: [120,600][160,600]'\n",
+      "b'[300,600][300,250]</pre>-->\\r\\n      <div id=\"snhb-sidebar_sticky-0\"></div>\\r\\n      <script>\\r\\n          if (Number(w3_getStyleValue'\n",
+      "b'(document.getElementById(\"main\"), \"height\").replace(\"px\", \"\")) > 2200) {\\r\\n            // adspace sticky\\r\\n            if (documen'\n",
+      "b't.getElementById(\"snhb-mid_content-0\")) {\\r\\n              snhb.queue.push(function(){  snhb.startAuction([\"sidebar_sticky\", \"mid_'\n",
+      "b'content\" ]); });\\r\\n            }\\r\\n            else {\\r\\n              snhb.queue.push(function(){  snhb.startAuction([\"sidebar_stic'\n",
+      "b'ky\"]); });\\r\\n            }\\r\\n          }\\r\\n          else {\\r\\n              if (document.getElementById(\"snhb-mid_content-0\")) {\\r\\n  '\n",
+      "b'              snhb.queue.push(function(){  snhb.startAuction([\"mid_content\"]); });\\r\\n              }\\r\\n          }\\r\\n      </script'\n",
+      "b'>  \\r\\n      \\r\\n    </div>\\r\\n  </div>\\r\\n</div>\\r\\n\\r\\n<script>\\r\\n  window.addEventListener(\"scroll\", fix_stickyad);\\r\\n  window.addEventList'\n",
+      "b'ener(\"resize\", fix_stickyad);\\r\\n</script>\\r\\n\\r\\n</div>\\r\\n</div>\\r\\n<div id=\"footer\" class=\"footer w3-container w3-white\">\\r\\n\\r\\n<hr>\\r\\n\\r\\n<d'\n",
+      "b'iv style=\"overflow:auto\">\\r\\n  <div class=\"bottomad\">\\r\\n    <!-- BottomMediumRectangle -->\\r\\n    <!--<pre>bottom_medium_rectangle, a'\n",
+      "b'll: [970,250][300,250][336,280]</pre>-->\\r\\n    <div id=\"snhb-bottom_medium_rectangle-0\" style=\"padding:0 10px 10px 0;float:left;w'\n",
+      "b'idth:auto;\"></div>\\r\\n    <!-- adspace bmr -->\\r\\n    <!-- RightBottomMediumRectangle -->\\r\\n    <!--<pre>right_bottom_medium_rectangl'\n",
+      "b'e, desktop: [300,250][336,280]</pre>-->\\r\\n    <div id=\"snhb-right_bottom_medium_rectangle-0\" style=\"padding:0 10px 10px 0;float:l'\n",
+      "b'eft;width:auto;\"></div>\\r\\n  </div>\\r\\n</div>\\r\\n\\r\\n<hr>\\r\\n<div class=\"w3-row-padding w3-center w3-small\" style=\"margin:0 -16px\">\\r\\n<div '\n",
+      "b'class=\"w3-col l3 m3 s12\">\\r\\n<a class=\"w3-button w3-light-grey w3-block\" href=\"javascript:void(0);\" onclick=\"displayError();return'\n",
+      "b' false\" style=\"white-space:nowrap;text-decoration:none;margin-top:1px;margin-bottom:1px\">REPORT ERROR</a>\\r\\n</div>\\r\\n<div class=\"w'\n",
+      "b'3-col l3 m3 s12\">\\r\\n<a class=\"w3-button w3-light-grey w3-block\" href=\"javascript:void(0);\" target=\"_blank\" onclick=\"printPage();r'\n",
+      "b'eturn false;\" style=\"text-decoration:none;margin-top:1px;margin-bottom:1px\">PRINT PAGE</a>\\r\\n</div>\\r\\n<div class=\"w3-col l3 m3 s12'\n",
+      "b'\">\\r\\n<a class=\"w3-button w3-light-grey w3-block\" href=\"/forum/default.asp\" target=\"_blank\" style=\"text-decoration:none;margin-top'\n",
+      "b':1px;margin-bottom:1px\">FORUM</a>\\r\\n</div>\\r\\n<div class=\"w3-col l3 m3 s12\">\\r\\n<a class=\"w3-button w3-light-grey w3-block\" href=\"/ab'\n",
+      "b'out/default.asp\" target=\"_top\" style=\"text-decoration:none;margin-top:1px;margin-bottom:1px\">ABOUT</a>\\r\\n</div>\\r\\n</div>\\r\\n<hr>\\r\\n<d'\n",
+      "b'iv class=\"w3-light-grey w3-padding w3-margin-bottom\" id=\"err_form\" style=\"display:none;position:relative\">\\r\\n<span onclick=\"this.'\n",
+      "b'parentElement.style.display=\\'none\\'\" class=\"w3-button w3-display-topright w3-large\">&times;</span>     \\r\\n<h2>Your Suggestion:</h2'\n",
+      "b'>\\r\\n<form>\\r\\n<div class=\"w3-section\">      \\r\\n<label for=\"err_email\">Your E-mail:</label>\\r\\n<input class=\"w3-input w3-border\" type=\"'\n",
+      "b'text\" style=\"margin-top:5px;width:100%\" id=\"err_email\" name=\"err_email\">\\r\\n</div>\\r\\n<div class=\"w3-section\">      \\r\\n<label for=\"er'\n",
+      "b'r_email\">Page address:</label>\\r\\n<input class=\"w3-input w3-border\" type=\"text\" style=\"width:100%;margin-top:5px\" id=\"err_url\" nam'\n",
+      "b'e=\"err_url\" disabled=\"disabled\">\\r\\n</div>\\r\\n<div class=\"w3-section\">\\r\\n<label for=\"err_email\">Description:</label>\\r\\n<textarea rows='\n",
+      "b'\"10\" class=\"w3-input w3-border\" id=\"err_desc\" name=\"err_desc\" style=\"width:100%;margin-top:5px;resize:vertical;\"></textarea>\\r\\n</'\n",
+      "b'div>\\r\\n<div class=\"form-group\">        \\r\\n<button type=\"button\" class=\"w3-button w3-dark-grey\" onclick=\"sendErr()\">Submit</button>'\n",
+      "b'\\r\\n</div>\\r\\n<br>\\r\\n</form>\\r\\n</div>\\r\\n<div class=\"w3-container w3-light-grey w3-padding\" id=\"err_sent\" style=\"display:none;position:r'\n",
+      "b'elative\">\\r\\n<span onclick=\"this.parentElement.style.display=\\'none\\'\" class=\"w3-button w3-display-topright\">&times;</span>     \\r\\n<h'\n",
+      "b'2>Thank You For Helping Us!</h2>\\r\\n<p>Your message has been sent to W3Schools.</p>\\r\\n</div>\\r\\n\\r\\n<div class=\"w3-row w3-center w3-sma'\n",
+      "b'll\">\\r\\n<div class=\"w3-col l3 m6 s12\">\\r\\n<div class=\"top10\">\\r\\n<h4>Top Tutorials</h4>\\r\\n<a href=\"/html/default.asp\">HTML Tutorial</a>'\n",
+      "b'<br>\\r\\n<a href=\"/css/default.asp\">CSS Tutorial</a><br>\\r\\n<a href=\"/js/default.asp\">JavaScript Tutorial</a><br>\\r\\n<a href=\"/howto/de'\n",
+      "b'fault.asp\">How To Tutorial</a><br>\\r\\n<a href=\"/sql/default.asp\">SQL Tutorial</a><br>\\r\\n<a href=\"/python/default.asp\">Python Tutori'\n",
+      "b'al</a><br>\\r\\n<a href=\"/w3css/default.asp\">W3.CSS Tutorial</a><br>\\r\\n<a href=\"/bootstrap/bootstrap_ver.asp\">Bootstrap Tutorial</a><'\n",
+      "b'br>\\r\\n<a href=\"/php/default.asp\">PHP Tutorial</a><br>\\r\\n<a href=\"/jquery/default.asp\">jQuery Tutorial</a><br>\\r\\n<a href=\"/java/defa'\n",
+      "b'ult.asp\">Java Tutorial</a><br>\\r\\n<a href=\"/cpp/default.asp\">C++ Tutorial</a><br>\\r\\n</div>\\r\\n</div>\\r\\n<div class=\"w3-col l3 m6 s12\">\\r'\n",
+      "b'\\n<div class=\"top10\">\\r\\n<h4>Top References</h4>\\r\\n<a href=\"/tags/default.asp\">HTML Reference</a><br>\\r\\n<a href=\"/cssref/default.asp\"'\n",
+      "b'>CSS Reference</a><br>\\r\\n<a href=\"/jsref/default.asp\">JavaScript Reference</a><br>\\r\\n<a href=\"/sql/sql_ref_keywords.asp\">SQL Refer'\n",
+      "b'ence</a><br>\\r\\n<a href=\"/python/python_reference.asp\">Python Reference</a><br>\\r\\n<a href=\"/w3css/w3css_references.asp\">W3.CSS Refe'\n",
+      "b'rence</a><br>\\r\\n<a href=\"/bootstrap/bootstrap_ref_all_classes.asp\">Bootstrap Reference</a><br>\\r\\n<a href=\"/php/php_ref_overview.as'\n",
+      "b'p\">PHP Reference</a><br>\\r\\n<a href=\"/colors/colors_names.asp\">HTML Colors</a><br>\\r\\n<a href=\"/jquery/jquery_ref_overview.asp\">jQue'\n",
+      "b'ry Reference</a><br>\\r\\n<a href=\"/java/java_ref_keywords.asp\">Java Reference</a><br>\\r\\n<a href=\"/angular/angular_ref_directives.asp'\n",
+      "b'\">Angular Reference</a><br>\\r\\n</div>\\r\\n</div>\\r\\n<div class=\"w3-col l3 m6 s12\">\\r\\n<div class=\"top10\">\\r\\n<h4>Top Examples</h4>\\r\\n<a href'\n",
+      "b'=\"/html/html_examples.asp\">HTML Examples</a><br>\\r\\n<a href=\"/css/css_examples.asp\">CSS Examples</a><br>\\r\\n<a href=\"/js/js_examples'\n",
+      "b'.asp\">JavaScript Examples</a><br>\\r\\n<a href=\"/howto/default.asp\">How To Examples</a><br>\\r\\n<a href=\"/sql/sql_examples.asp\">SQL Exa'\n",
+      "b'mples</a><br>\\r\\n<a href=\"/python/python_examples.asp\">Python Examples</a><br>\\r\\n<a href=\"/w3css/w3css_examples.asp\">W3.CSS Example'\n",
+      "b's</a><br>\\r\\n<a href=\"/bootstrap/bootstrap_examples.asp\">Bootstrap Examples</a><br>\\r\\n<a href=\"/php/php_examples.asp\">PHP Examples<'\n",
+      "b'/a><br>\\r\\n<a href=\"/jquery/jquery_examples.asp\">jQuery Examples</a><br>\\r\\n<a href=\"/java/java_examples.asp\">Java Examples</a><br>\\r'\n",
+      "b'\\n<a href=\"/xml/xml_examples.asp\">XML Examples</a><br>\\r\\n</div>\\r\\n</div>\\r\\n<div class=\"w3-col l3 m6 s12\">\\r\\n<div class=\"top10\">\\r\\n<h4>'\n",
+      "b'Web Certificates</h4>\\r\\n<a href=\"/cert/default.asp\">HTML Certificate</a><br>\\r\\n<a href=\"/cert/default.asp\">CSS Certificate</a><br>'\n",
+      "b'\\r\\n<a href=\"/cert/default.asp\">JavaScript Certificate</a><br>\\r\\n<a href=\"/cert/default.asp\">SQL Certificate</a><br>\\r\\n<a href=\"/cer'\n",
+      "b't/default.asp\">Python Certificate</a><br>\\r\\n<a href=\"/cert/default.asp\">jQuery Certificate</a><br>\\r\\n<a href=\"/cert/default.asp\">P'\n",
+      "b'HP Certificate</a><br>\\r\\n<a href=\"/cert/default.asp\">Bootstrap Certificate</a><br>\\r\\n<a href=\"/cert/default.asp\">XML Certificate</'\n",
+      "b'a><br>\\r\\n<a href=\"//www.w3schools.com/cert/default.asp\" class=\"w3-button w3-margin-top w3-dark-grey\" style=\"text-decoration:none\"'\n",
+      "b'>\\r\\nGet Certified &raquo;</a>\\r\\n\\r\\n</div>\\r\\n</div>        \\r\\n</div>        \\r\\n\\r\\n<hr>\\r\\n<div class=\"w3-center w3-small w3-opacity\">\\r\\nW3S'\n",
+      "b'chools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding'\n",
+      "b'.\\r\\nTutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all co'\n",
+      "b'ntent.\\r\\nWhile using this site, you agree to have read and accepted our <a href=\"/about/about_copyright.asp\">terms of use</a>,\\r\\n<'\n",
+      "b'a href=\"/about/about_privacy.asp\">cookie and privacy policy</a>.\\r\\n<a href=\"/about/about_copyright.asp\">Copyright 1999-2019</a> b'\n",
+      "b'y Refsnes Data. All Rights Reserved.<br>\\r\\n <a href=\"//www.w3schools.com/w3css/\">Powered by W3.CSS</a>.<br><br>\\r\\n<a href=\"//www.w'\n",
+      "b'3schools.com\">\\r\\n<img style=\"width:150px;height:28px;border:0\" src=\"/images/w3schoolscom_gray.gif\" alt=\"W3Schools.com\"></a>\\r\\n</di'\n",
+      "b'v>\\r\\n<br><br>\\r\\n</div>\\r\\n\\r\\n</div>\\r\\n<script src=\"/lib/w3schools_footer.js\"></script>\\r\\n<script src=\"https://translate.google.com/tran'\n",
+      "b'slate_a/element.js?cb=googleTranslateElementInit\"></script>\\r\\n<!--[if lt IE 9]>\\r\\n<script src=\"https://oss.maxcdn.com/libs/html5sh'\n",
+      "b'iv/3.7.0/html5shiv.js\"></script>\\r\\n<script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>  \\r\\n<![endi'\n",
+      "b'f]-->\\r\\n</body>\\r\\n</html>'\n"
+     ]
+    }
+   ],
+   "source": [
+    "import requests\n",
+    "\n",
+    "url = \"https://www.w3schools.com/python/\" \n",
+    "response = requests.get(url)\n",
+    "for line in response:\n",
+    "    print(line)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
