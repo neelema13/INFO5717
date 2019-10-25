@@ -1,0 +1,178 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Question3\n",
+    "#This program is used to enter the details of the students and store them and calculate the GPA.\n",
+    "\n",
+    "import random\n",
+    "class Student:\n",
+    "    lname=\"Parwani\"\n",
+    "    fname=\"Neelema\"\n",
+    "    mname=\"Bhagwan\"\n",
+    "    euid=\" \"\n",
+    "    GPA=0\n",
+    "    #classes={}\n",
+    "    listOfClasses=[] #list of dictionaries of the class details\n",
+    "    def _init_(self, lname, fname, mname):\n",
+    "        self.lname=lname\n",
+    "        self.fname=fname\n",
+    "        self.mname=mname\n",
+    "    def _derive_euid_(self):\n",
+    "        print(\"the lastname is\", self.lname)\n",
+    "        print(\"The first letter of lastname for euid-----\", self.lname[0:1])\n",
+    "        a=random.randint(1000,10000)\n",
+    "        namestring= self.lname[0:1].lower()+self.fname[0:1].lower()+self.mname[0:1].lower()+str(a)\n",
+    "        print(\"the euid for the student is-----\", namestring)\n",
+    "    def _register(self):\n",
+    "        classes={}\n",
+    "        numberOfcourses=input(\"Enter the number of the courses\")\n",
+    "\n",
+    "        if int(numberOfcourses)<2:\n",
+    "            print(\"You must be registered for 2 courses\")\n",
+    "\n",
+    "        for i in range(0,int(numberOfcourses)):\n",
+    "\n",
+    "            classNumber=input(\"Enter the class number: \")\n",
+    "            semester=input(\"Enter the semester: \")\n",
+    "            grade=input(\"Enter the Grade: \")\n",
+    "            classes[\"classNumber\"]=classNumber\n",
+    "            classes[\"semester\"]=semester\n",
+    "            classes[\"grade\"]=grade\n",
+    "            print(\"The class details are:\", classes)\n",
+    "            print(\"The length of the list is---:\", len(self.listOfClasses))\n",
+    "            self.listOfClasses.append(classes)\n",
+    "            print(\"The length of the list is: \", len(self.listOfClasses))\n",
+    "            for p in self.listOfClasses:\n",
+    "                print(\"The contents of the course details are as follows:\", p)\n",
+    "    def _calculate_GPA(self):\n",
+    "        total=0\n",
+    "        for p in self.listOfClasses:\n",
+    "            print(\"The contents of the list of dictionaries :\",p[\"grade\"])\n",
+    "            if p[\"grade\"]=='A':\n",
+    "                points=4.0\n",
+    "            elif p[\"grade\"]=='B':\n",
+    "                points=3.5\n",
+    "            elif p[\"grade\"]=='C':\n",
+    "                points=3.0\n",
+    "            else:\n",
+    "                print(\"Enter an appropriate grade\")\n",
+    "            total=total+points \n",
+    "            self.GPA=total/len(self.listOfClasses)\n",
+    "            print(\"the GPA of the student is\", self.GPA)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the lastname Parwani\n",
+      "Enter the firstname Neelema\n",
+      "Enter the middlename Bhagwan\n",
+      "The firstname is  Neelema last name is Parwani middlename is  Bhagwan\n",
+      "the lastname is Neelema\n",
+      "The first letter of lastname for euid----- N\n",
+      "the euid for the student is----- npb2326\n",
+      "Enter the number of the courses2\n",
+      "Enter the class number: INFO 5717\n",
+      "Enter the semester: Fall 2019\n",
+      "Enter the Grade: A\n",
+      "The class details are: {'classNumber': 'INFO 5717', 'semester': 'Fall 2019', 'grade': 'A'}\n",
+      "The length of the list is---: 0\n",
+      "The length of the list is:  1\n",
+      "The contents of the course details are as follows: {'classNumber': 'INFO 5717', 'semester': 'Fall 2019', 'grade': 'A'}\n",
+      "Enter the class number: ADTA 5240\n",
+      "Enter the semester: Fall 2019\n",
+      "Enter the Grade: A\n",
+      "The class details are: {'classNumber': 'ADTA 5240', 'semester': 'Fall 2019', 'grade': 'A'}\n",
+      "The length of the list is---: 1\n",
+      "The length of the list is:  2\n",
+      "The contents of the course details are as follows: {'classNumber': 'ADTA 5240', 'semester': 'Fall 2019', 'grade': 'A'}\n",
+      "The contents of the course details are as follows: {'classNumber': 'ADTA 5240', 'semester': 'Fall 2019', 'grade': 'A'}\n",
+      "The contents of the list of dictionaries : A\n",
+      "the GPA of the student is 2.0\n",
+      "The contents of the list of dictionaries : A\n",
+      "the GPA of the student is 4.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "c1=Student()\n",
+    "\n",
+    "ilname=input(\"Enter the lastname \")\n",
+    "ifname=input(\"Enter the firstname \")\n",
+    "imname=input(\"Enter the middlename \")\n",
+    "print(\"The firstname is \", ifname, \"last name is\", ilname, \"middlename is \", imname)\n",
+    "c1._init_(ifname, ilname, imname)\n",
+    "c1._derive_euid_()\n",
+    "c1._register()\n",
+    "c1._calculate_GPA()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
